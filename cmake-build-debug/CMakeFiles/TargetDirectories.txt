@@ -1,0 +1,3 @@
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles/PROI_23.dir
