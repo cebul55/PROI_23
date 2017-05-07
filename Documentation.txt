@@ -1,0 +1,55 @@
+projekt dokumentacja i wkazówki :) 
+
+Numbers are generated randomly with use of library <random>
+
+Problem plecakowy:
+-
+-
+-
+-
+-
+
+
+Problem komiwojażera :
+-G
+-
+-
+-
+-
+
+
+Sudoku:
+-
+-
+-
+-
+-
+-
+
+  /*int Max_value;
+    std::cout<<"Set maximum distribution value";
+    std::cin>>Max_value;
+    std::random_device generator;
+    std::default_random_engine generator1;
+    std::uniform_int_distribution<int> distribution(1,Max_value);
+    int dice_roll = distribution(generator);
+    //auto dice = std::bind(distribution, generator);
+    int w ,w1;
+    int t[1000] ;
+    int t1[1000];
+    for(int i = 0 ; i < 100 ; i++){
+        w = distribution(generator);
+        w1=distribution(generator1);
+        t[w]++;
+        t1[w1]++;
+        std::cout<<w1<<" "<<w<<std::endl;
+    }
+    std::cout<<"default_random_engine"<<std::endl;
+    for (int i = 1 ;i <= Max_value ; i++) {
+        std::cout<<t1[i]<<" ";
+    }
+    std::cout<<std::endl<<"random_device"<<std::endl;
+    for (int i = 1 ;i <= Max_value ; i++) {
+        std::cout<<t[i]<<" ";
+    }
+    std::cout << std::endl << "End of distrubution" << std::endl;*/
