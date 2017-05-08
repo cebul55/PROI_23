@@ -123,6 +123,60 @@ PROI_23/fast:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/build
 .PHONY : PROI_23/fast
 
+bagpackUnit.o: bagpackUnit.cpp.o
+
+.PHONY : bagpackUnit.o
+
+# target to build an object file
+bagpackUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o
+.PHONY : bagpackUnit.cpp.o
+
+bagpackUnit.i: bagpackUnit.cpp.i
+
+.PHONY : bagpackUnit.i
+
+# target to preprocess a source file
+bagpackUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.i
+.PHONY : bagpackUnit.cpp.i
+
+bagpackUnit.s: bagpackUnit.cpp.s
+
+.PHONY : bagpackUnit.s
+
+# target to generate assembly for a file
+bagpackUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.s
+.PHONY : bagpackUnit.cpp.s
+
+binaryPhenotype.o: binaryPhenotype.cpp.o
+
+.PHONY : binaryPhenotype.o
+
+# target to build an object file
+binaryPhenotype.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o
+.PHONY : binaryPhenotype.cpp.o
+
+binaryPhenotype.i: binaryPhenotype.cpp.i
+
+.PHONY : binaryPhenotype.i
+
+# target to preprocess a source file
+binaryPhenotype.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.i
+.PHONY : binaryPhenotype.cpp.i
+
+binaryPhenotype.s: binaryPhenotype.cpp.s
+
+.PHONY : binaryPhenotype.s
+
+# target to generate assembly for a file
+binaryPhenotype.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.s
+.PHONY : binaryPhenotype.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +231,60 @@ menu.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/menu.cpp.s
 .PHONY : menu.cpp.s
 
+numericPhenotype.o: numericPhenotype.cpp.o
+
+.PHONY : numericPhenotype.o
+
+# target to build an object file
+numericPhenotype.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o
+.PHONY : numericPhenotype.cpp.o
+
+numericPhenotype.i: numericPhenotype.cpp.i
+
+.PHONY : numericPhenotype.i
+
+# target to preprocess a source file
+numericPhenotype.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/numericPhenotype.cpp.i
+.PHONY : numericPhenotype.cpp.i
+
+numericPhenotype.s: numericPhenotype.cpp.s
+
+.PHONY : numericPhenotype.s
+
+# target to generate assembly for a file
+numericPhenotype.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/numericPhenotype.cpp.s
+.PHONY : numericPhenotype.cpp.s
+
+phenotype.o: phenotype.cpp.o
+
+.PHONY : phenotype.o
+
+# target to build an object file
+phenotype.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/phenotype.cpp.o
+.PHONY : phenotype.cpp.o
+
+phenotype.i: phenotype.cpp.i
+
+.PHONY : phenotype.i
+
+# target to preprocess a source file
+phenotype.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/phenotype.cpp.i
+.PHONY : phenotype.cpp.i
+
+phenotype.s: phenotype.cpp.s
+
+.PHONY : phenotype.s
+
+# target to generate assembly for a file
+phenotype.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/phenotype.cpp.s
+.PHONY : phenotype.cpp.s
+
 random.o: random.cpp.o
 
 .PHONY : random.o
@@ -204,6 +312,60 @@ random.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/random.cpp.s
 .PHONY : random.cpp.s
 
+sudokuUnit.o: sudokuUnit.cpp.o
+
+.PHONY : sudokuUnit.o
+
+# target to build an object file
+sudokuUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o
+.PHONY : sudokuUnit.cpp.o
+
+sudokuUnit.i: sudokuUnit.cpp.i
+
+.PHONY : sudokuUnit.i
+
+# target to preprocess a source file
+sudokuUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.i
+.PHONY : sudokuUnit.cpp.i
+
+sudokuUnit.s: sudokuUnit.cpp.s
+
+.PHONY : sudokuUnit.s
+
+# target to generate assembly for a file
+sudokuUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.s
+.PHONY : sudokuUnit.cpp.s
+
+unit.o: unit.cpp.o
+
+.PHONY : unit.o
+
+# target to build an object file
+unit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.o
+.PHONY : unit.cpp.o
+
+unit.i: unit.cpp.i
+
+.PHONY : unit.i
+
+# target to preprocess a source file
+unit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.i
+.PHONY : unit.cpp.i
+
+unit.s: unit.cpp.s
+
+.PHONY : unit.s
+
+# target to generate assembly for a file
+unit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.s
+.PHONY : unit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +375,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PROI_23"
+	@echo "... bagpackUnit.o"
+	@echo "... bagpackUnit.i"
+	@echo "... bagpackUnit.s"
+	@echo "... binaryPhenotype.o"
+	@echo "... binaryPhenotype.i"
+	@echo "... binaryPhenotype.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... menu.o"
 	@echo "... menu.i"
 	@echo "... menu.s"
+	@echo "... numericPhenotype.o"
+	@echo "... numericPhenotype.i"
+	@echo "... numericPhenotype.s"
+	@echo "... phenotype.o"
+	@echo "... phenotype.i"
+	@echo "... phenotype.s"
 	@echo "... random.o"
 	@echo "... random.i"
 	@echo "... random.s"
+	@echo "... sudokuUnit.o"
+	@echo "... sudokuUnit.i"
+	@echo "... sudokuUnit.s"
+	@echo "... unit.o"
+	@echo "... unit.i"
+	@echo "... unit.s"
 .PHONY : help
 
 

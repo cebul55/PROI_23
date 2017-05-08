@@ -129,11 +129,161 @@ CMakeFiles/PROI_23.dir/menu.cpp.o.provides: CMakeFiles/PROI_23.dir/menu.cpp.o.re
 CMakeFiles/PROI_23.dir/menu.cpp.o.provides.build: CMakeFiles/PROI_23.dir/menu.cpp.o
 
 
+CMakeFiles/PROI_23.dir/phenotype.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/phenotype.cpp.o: ../phenotype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PROI_23.dir/phenotype.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/phenotype.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/phenotype.cpp"
+
+CMakeFiles/PROI_23.dir/phenotype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/phenotype.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/phenotype.cpp" > CMakeFiles/PROI_23.dir/phenotype.cpp.i
+
+CMakeFiles/PROI_23.dir/phenotype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/phenotype.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/phenotype.cpp" -o CMakeFiles/PROI_23.dir/phenotype.cpp.s
+
+CMakeFiles/PROI_23.dir/phenotype.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/phenotype.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/phenotype.cpp.o.provides: CMakeFiles/PROI_23.dir/phenotype.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/phenotype.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/phenotype.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/phenotype.cpp.o.provides.build: CMakeFiles/PROI_23.dir/phenotype.cpp.o
+
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o: ../binaryPhenotype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/binaryPhenotype.cpp"
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/binaryPhenotype.cpp" > CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.i
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/binaryPhenotype.cpp" -o CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.s
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.provides: CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.provides.build: CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o
+
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o: ../numericPhenotype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/numericPhenotype.cpp"
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/numericPhenotype.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/numericPhenotype.cpp" > CMakeFiles/PROI_23.dir/numericPhenotype.cpp.i
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/numericPhenotype.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/numericPhenotype.cpp" -o CMakeFiles/PROI_23.dir/numericPhenotype.cpp.s
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.provides: CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.provides.build: CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o
+
+
+CMakeFiles/PROI_23.dir/unit.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/unit.cpp.o: ../unit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PROI_23.dir/unit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/unit.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/unit.cpp"
+
+CMakeFiles/PROI_23.dir/unit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/unit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/unit.cpp" > CMakeFiles/PROI_23.dir/unit.cpp.i
+
+CMakeFiles/PROI_23.dir/unit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/unit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/unit.cpp" -o CMakeFiles/PROI_23.dir/unit.cpp.s
+
+CMakeFiles/PROI_23.dir/unit.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/unit.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/unit.cpp.o.provides: CMakeFiles/PROI_23.dir/unit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/unit.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/unit.cpp.o.provides.build: CMakeFiles/PROI_23.dir/unit.cpp.o
+
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o: ../bagpackUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/bagpackUnit.cpp"
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/bagpackUnit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/bagpackUnit.cpp" > CMakeFiles/PROI_23.dir/bagpackUnit.cpp.i
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/bagpackUnit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/bagpackUnit.cpp" -o CMakeFiles/PROI_23.dir/bagpackUnit.cpp.s
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.provides: CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.provides.build: CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o
+
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o: CMakeFiles/PROI_23.dir/flags.make
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o: ../sudokuUnit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o -c "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/sudokuUnit.cpp"
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROI_23.dir/sudokuUnit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/sudokuUnit.cpp" > CMakeFiles/PROI_23.dir/sudokuUnit.cpp.i
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROI_23.dir/sudokuUnit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/sudokuUnit.cpp" -o CMakeFiles/PROI_23.dir/sudokuUnit.cpp.s
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.requires:
+
+.PHONY : CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.requires
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.provides: CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.provides.build
+.PHONY : CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.provides
+
+CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.provides.build: CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o
+
+
 # Object files for target PROI_23
 PROI_23_OBJECTS = \
 "CMakeFiles/PROI_23.dir/main.cpp.o" \
 "CMakeFiles/PROI_23.dir/random.cpp.o" \
-"CMakeFiles/PROI_23.dir/menu.cpp.o"
+"CMakeFiles/PROI_23.dir/menu.cpp.o" \
+"CMakeFiles/PROI_23.dir/phenotype.cpp.o" \
+"CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o" \
+"CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o" \
+"CMakeFiles/PROI_23.dir/unit.cpp.o" \
+"CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o" \
+"CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o"
 
 # External object files for target PROI_23
 PROI_23_EXTERNAL_OBJECTS =
@@ -141,9 +291,15 @@ PROI_23_EXTERNAL_OBJECTS =
 PROI_23: CMakeFiles/PROI_23.dir/main.cpp.o
 PROI_23: CMakeFiles/PROI_23.dir/random.cpp.o
 PROI_23: CMakeFiles/PROI_23.dir/menu.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/phenotype.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/unit.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o
+PROI_23: CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o
 PROI_23: CMakeFiles/PROI_23.dir/build.make
 PROI_23: CMakeFiles/PROI_23.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PROI_23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable PROI_23"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PROI_23.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +310,12 @@ CMakeFiles/PROI_23.dir/build: PROI_23
 CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/main.cpp.o.requires
 CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/random.cpp.o.requires
 CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/menu.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/phenotype.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/binaryPhenotype.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/numericPhenotype.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/unit.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o.requires
+CMakeFiles/PROI_23.dir/requires: CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o.requires
 
 .PHONY : CMakeFiles/PROI_23.dir/requires
 

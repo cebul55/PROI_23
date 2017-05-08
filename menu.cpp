@@ -4,5 +4,8 @@
 #include "menu.h"
 
 int Menu::menu(){
+    //TODO write menu
+    //add bagpack problem
+    //add sudoku problem
     return 0;
 }

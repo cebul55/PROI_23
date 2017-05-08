@@ -6,7 +6,15 @@
 #define PROI_23_RANDOM_H
 
 #include <iostream>
+#include <string>
 #include <random>
+#include <cstdlib>
+
+#ifdef _WIN32
+#define CLEAR "cls"
+#else
+#define CLEAR "clear"
+#endif
 
 #define MAX_RAND 4
 #define INITIAL_VALUE 0

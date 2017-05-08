@@ -3,7 +3,13 @@ projekt dokumentacja i wkazówki :)
 Numbers are generated randomly with use of library <random>
 
 Problem plecakowy:
--
+- main BAGPACK{
+    int maxSize_;
+    int numberOfItems_;
+    int note_;
+    std::vector<int> items_;
+    std::vector<int> values_;
+}
 -
 -
 -
