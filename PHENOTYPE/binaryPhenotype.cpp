@@ -23,3 +23,13 @@ void BinaryPhenotype::generatePhenotype(int n) {
     return;
 }
 
+void BinaryPhenotype::mutatePhenotype() {
+    Random generateNumber(maxSize_);
+    generateNumber.setValue();
+    int n = generateNumber.pushValue();
+    if (binaryPhenotype_[n] == '0') {
+        binaryPhenotype_[n] = '1';
+    } else
+        binaryPhenotype_[n] = '0';
+    return ;
+}

@@ -46,7 +46,18 @@ public:
             stringBagpack_ = setStringBagpack(numberOfItems_),
             note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
     }
+//crossing konstructor
+    BagpackUnit(BagpackUnit &bagpack1 , BagpackUnit &bagpack2):
+            maxSize_(bagpack1.maxSize_),
+            numberOfItems_(bagpack1.numberOfItems_),
+            items_(bagpack1.items_),
+            values_(bagpack1.values_){
+            crossMutateBagpack(bagpack1 , bagpack2);
+    }
 
+    std::string pushPhenotype(){
+        return stringBagpack_;
+    }
     void writeBagpack();
     int pushNote(){
         return note_;
@@ -55,6 +66,7 @@ public:
     void writeNote(){
         std::cout<<note_<<std::endl;
     }
+    void crossMutateBagpack(BagpackUnit &bagpack1 , BagpackUnit &bagpack2);
 };
 
 #endif //PROI_23_BAGPACKUNIT_H

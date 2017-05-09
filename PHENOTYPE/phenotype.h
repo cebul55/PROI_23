@@ -11,7 +11,6 @@ class Phenotype{
     std::string phenotype_;
     int size_;
 public:
-    //TODO - krzyzowanie(binary proste , numeric n krzyzowan prostych , funkcja template?), konstruktor , destruktor,
 
     virtual void writePhenotype(){
         std::cout<<phenotype_<<std::endl;

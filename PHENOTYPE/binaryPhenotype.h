@@ -14,7 +14,12 @@ class BinaryPhenotype: public Phenotype{
     std::string binaryPhenotype_;
     void generatePhenotype(int);
 public:
-    BinaryPhenotype(int maxSize):maxSize_(maxSize){
+    BinaryPhenotype(std::string phenotype):
+        binaryPhenotype_(phenotype){
+        maxSize_ = phenotype.size();
+    }
+
+    BinaryPhenotype(int maxSize): maxSize_(maxSize){
         generatePhenotype(maxSize_);
     }
 
@@ -37,6 +42,9 @@ public:
     virtual std::string givePhenotype(){
         return binaryPhenotype_;
     };
+
+    void mutatePhenotype();
+
  };
 
 #endif //PROI_23_BINARYPHENOTYPE_H

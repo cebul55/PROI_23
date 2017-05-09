@@ -3,6 +3,7 @@
 //
 
 #include "bagpackUnit.h"
+#define ONEPROCENT 100
 
 int BagpackUnit::setNumberOfItems() {
     system(CLEAR);
@@ -38,8 +39,8 @@ void BagpackUnit::writeBagpack() {
     for(int i = 0 ; i<numberOfItems_;i++){
         std::cout<<"no. "<<i<<" size: "<<items_[i]<<" value: "<<values_[i]<<std::endl;
     }
-    //std::cout<<"Phenotype "<<stringBagpack_<<std::endl;
-    //std::cout<<"Note: "<<note_<<std::endl;
+    std::cout<<"Phenotype "<<stringBagpack_<<std::endl;
+    std::cout<<"Note: "<<note_<<std::endl;
     return;
 }
 
@@ -73,4 +74,21 @@ void BagpackUnit::writeSpecyficBagpack() {
         std::cout<<"Phenotype "<<stringBagpack_<<std::endl;
         std::cout<<"Note: "<<note_<<std::endl;
         return;
+}
+
+void BagpackUnit::crossMutateBagpack(BagpackUnit &bagpack1 , BagpackUnit &bagpack2){
+    BinaryPhenotype left(bagpack1.pushPhenotype());
+    BinaryPhenotype right(bagpack2.pushPhenotype());
+    stringBagpack_=left.crossPhenotypeLeftFirst(&left, &right);
+    note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
+    //MUTATE
+    Random generateNumber(ONEPROCENT);
+    generateNumber.setValue();
+    if(generateNumber.pushValue()==ONEPROCENT){
+        BinaryPhenotype mutate(stringBagpack_);
+        mutate.mutatePhenotype();
+        stringBagpack_= mutate.givePhenotype();
+        std::cout<<"MUTATED"<<std::endl;
+    }
+     return;
 }

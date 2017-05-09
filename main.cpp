@@ -23,6 +23,20 @@ int main() {
         }
     }*/
 
+    int maks = 0;
+    BagpackUnit b;
+    BagpackUnit copy1(b);
+    BagpackUnit copy2(b);
 
+    b.writeBagpack();
+    for(int i = 0 ; i < 1000 ; i++) {
+        //copy1.writeBagpack();
+        //copy2.writeBagpack();
+        BagpackUnit child(copy1, copy2);
+        if(child.pushNote()>maks) {
+            maks = child.pushNote();
+            child.writeBagpack();
+        }
+    }
     return 0;
 }
