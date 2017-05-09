@@ -5,8 +5,8 @@
 #ifndef PROI_23_UNIT_H
 #define PROI_23_UNIT_H
 
-#include "binaryPhenotype.h"
-#include "numericPhenotype.h"
+#include "../PHENOTYPE/binaryPhenotype.h"
+#include "../PHENOTYPE/numericPhenotype.h"
 
 //TODO template unit ?
 

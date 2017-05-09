@@ -21,6 +21,14 @@ public:
     std::string pushBinaryPhenotype(){
         return binaryPhenotype_;
     }
+
+    virtual void writePhenotype(){
+        std::cout<<binaryPhenotype_<<std::endl;
+    }
+
+    virtual void writeSize(){
+        std::cout<<maxSize_<<std::endl;
+    }
  };
 
 #endif //PROI_23_BINARYPHENOTYPE_H

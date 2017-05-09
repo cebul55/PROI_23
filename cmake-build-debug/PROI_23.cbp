@@ -80,16 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/numericPhenotype.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/numericPhenotype.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/phenotype.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/phenotype.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/random.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/random.h">
+			<Option target="PROI_23"/>
+		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/bagpackUnit.cpp">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/bagpackUnit.h">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/binaryPhenotype.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/binaryPhenotype.h">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/main.cpp">
@@ -99,24 +117,6 @@
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/menu.h">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/numericPhenotype.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/numericPhenotype.h">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/phenotype.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/phenotype.h">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/random.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/random.h">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/sudokuUnit.cpp">

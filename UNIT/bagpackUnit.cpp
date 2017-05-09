@@ -65,7 +65,6 @@ int BagpackUnit::setValue(int maxSize,int numberOfItems , std::string phenotype,
 }
 
 void BagpackUnit::writeSpecyficBagpack() {
-        system(CLEAR);
         std::cout<<"Bagpack size : "<< maxSize_<<std::endl;
         for(int i = 0 ; i<numberOfItems_;i++){
             if(stringBagpack_[i] == '1')
