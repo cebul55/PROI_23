@@ -123,6 +123,33 @@ PROI_23/fast:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/build
 .PHONY : PROI_23/fast
 
+MENU/menu.o: MENU/menu.cpp.o
+
+.PHONY : MENU/menu.o
+
+# target to build an object file
+MENU/menu.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/MENU/menu.cpp.o
+.PHONY : MENU/menu.cpp.o
+
+MENU/menu.i: MENU/menu.cpp.i
+
+.PHONY : MENU/menu.i
+
+# target to preprocess a source file
+MENU/menu.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/MENU/menu.cpp.i
+.PHONY : MENU/menu.cpp.i
+
+MENU/menu.s: MENU/menu.cpp.s
+
+.PHONY : MENU/menu.s
+
+# target to generate assembly for a file
+MENU/menu.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/MENU/menu.cpp.s
+.PHONY : MENU/menu.cpp.s
+
 PHENOTYPE/binaryPhenotype.o: PHENOTYPE/binaryPhenotype.cpp.o
 
 .PHONY : PHENOTYPE/binaryPhenotype.o
@@ -231,32 +258,86 @@ PHENOTYPE/random.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/PHENOTYPE/random.cpp.s
 .PHONY : PHENOTYPE/random.cpp.s
 
-bagpackUnit.o: bagpackUnit.cpp.o
+UNIT/bagpackUnit.o: UNIT/bagpackUnit.cpp.o
 
-.PHONY : bagpackUnit.o
+.PHONY : UNIT/bagpackUnit.o
 
 # target to build an object file
-bagpackUnit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.o
-.PHONY : bagpackUnit.cpp.o
+UNIT/bagpackUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o
+.PHONY : UNIT/bagpackUnit.cpp.o
 
-bagpackUnit.i: bagpackUnit.cpp.i
+UNIT/bagpackUnit.i: UNIT/bagpackUnit.cpp.i
 
-.PHONY : bagpackUnit.i
+.PHONY : UNIT/bagpackUnit.i
 
 # target to preprocess a source file
-bagpackUnit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.i
-.PHONY : bagpackUnit.cpp.i
+UNIT/bagpackUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.i
+.PHONY : UNIT/bagpackUnit.cpp.i
 
-bagpackUnit.s: bagpackUnit.cpp.s
+UNIT/bagpackUnit.s: UNIT/bagpackUnit.cpp.s
 
-.PHONY : bagpackUnit.s
+.PHONY : UNIT/bagpackUnit.s
 
 # target to generate assembly for a file
-bagpackUnit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/bagpackUnit.cpp.s
-.PHONY : bagpackUnit.cpp.s
+UNIT/bagpackUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.s
+.PHONY : UNIT/bagpackUnit.cpp.s
+
+UNIT/sudokuUnit.o: UNIT/sudokuUnit.cpp.o
+
+.PHONY : UNIT/sudokuUnit.o
+
+# target to build an object file
+UNIT/sudokuUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o
+.PHONY : UNIT/sudokuUnit.cpp.o
+
+UNIT/sudokuUnit.i: UNIT/sudokuUnit.cpp.i
+
+.PHONY : UNIT/sudokuUnit.i
+
+# target to preprocess a source file
+UNIT/sudokuUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.i
+.PHONY : UNIT/sudokuUnit.cpp.i
+
+UNIT/sudokuUnit.s: UNIT/sudokuUnit.cpp.s
+
+.PHONY : UNIT/sudokuUnit.s
+
+# target to generate assembly for a file
+UNIT/sudokuUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.s
+.PHONY : UNIT/sudokuUnit.cpp.s
+
+UNIT/unit.o: UNIT/unit.cpp.o
+
+.PHONY : UNIT/unit.o
+
+# target to build an object file
+UNIT/unit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o
+.PHONY : UNIT/unit.cpp.o
+
+UNIT/unit.i: UNIT/unit.cpp.i
+
+.PHONY : UNIT/unit.i
+
+# target to preprocess a source file
+UNIT/unit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.i
+.PHONY : UNIT/unit.cpp.i
+
+UNIT/unit.s: UNIT/unit.cpp.s
+
+.PHONY : UNIT/unit.s
+
+# target to generate assembly for a file
+UNIT/unit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.s
+.PHONY : UNIT/unit.cpp.s
 
 main.o: main.cpp.o
 
@@ -285,87 +366,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-menu.o: menu.cpp.o
-
-.PHONY : menu.o
-
-# target to build an object file
-menu.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/menu.cpp.o
-.PHONY : menu.cpp.o
-
-menu.i: menu.cpp.i
-
-.PHONY : menu.i
-
-# target to preprocess a source file
-menu.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/menu.cpp.i
-.PHONY : menu.cpp.i
-
-menu.s: menu.cpp.s
-
-.PHONY : menu.s
-
-# target to generate assembly for a file
-menu.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/menu.cpp.s
-.PHONY : menu.cpp.s
-
-sudokuUnit.o: sudokuUnit.cpp.o
-
-.PHONY : sudokuUnit.o
-
-# target to build an object file
-sudokuUnit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.o
-.PHONY : sudokuUnit.cpp.o
-
-sudokuUnit.i: sudokuUnit.cpp.i
-
-.PHONY : sudokuUnit.i
-
-# target to preprocess a source file
-sudokuUnit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.i
-.PHONY : sudokuUnit.cpp.i
-
-sudokuUnit.s: sudokuUnit.cpp.s
-
-.PHONY : sudokuUnit.s
-
-# target to generate assembly for a file
-sudokuUnit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/sudokuUnit.cpp.s
-.PHONY : sudokuUnit.cpp.s
-
-unit.o: unit.cpp.o
-
-.PHONY : unit.o
-
-# target to build an object file
-unit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.o
-.PHONY : unit.cpp.o
-
-unit.i: unit.cpp.i
-
-.PHONY : unit.i
-
-# target to preprocess a source file
-unit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.i
-.PHONY : unit.cpp.i
-
-unit.s: unit.cpp.s
-
-.PHONY : unit.s
-
-# target to generate assembly for a file
-unit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/unit.cpp.s
-.PHONY : unit.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -375,6 +375,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PROI_23"
+	@echo "... MENU/menu.o"
+	@echo "... MENU/menu.i"
+	@echo "... MENU/menu.s"
 	@echo "... PHENOTYPE/binaryPhenotype.o"
 	@echo "... PHENOTYPE/binaryPhenotype.i"
 	@echo "... PHENOTYPE/binaryPhenotype.s"
@@ -387,21 +390,18 @@ help:
 	@echo "... PHENOTYPE/random.o"
 	@echo "... PHENOTYPE/random.i"
 	@echo "... PHENOTYPE/random.s"
-	@echo "... bagpackUnit.o"
-	@echo "... bagpackUnit.i"
-	@echo "... bagpackUnit.s"
+	@echo "... UNIT/bagpackUnit.o"
+	@echo "... UNIT/bagpackUnit.i"
+	@echo "... UNIT/bagpackUnit.s"
+	@echo "... UNIT/sudokuUnit.o"
+	@echo "... UNIT/sudokuUnit.i"
+	@echo "... UNIT/sudokuUnit.s"
+	@echo "... UNIT/unit.o"
+	@echo "... UNIT/unit.i"
+	@echo "... UNIT/unit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... menu.o"
-	@echo "... menu.i"
-	@echo "... menu.s"
-	@echo "... sudokuUnit.o"
-	@echo "... sudokuUnit.i"
-	@echo "... sudokuUnit.s"
-	@echo "... unit.o"
-	@echo "... unit.i"
-	@echo "... unit.s"
 .PHONY : help
 
 

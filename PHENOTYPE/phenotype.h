@@ -21,6 +21,17 @@ public:
     virtual void writeSize(){
         std::cout<<size_<<std::endl;
     }
+
+    virtual int giveSize(){
+        return size_;
+    }
+
+    virtual std::string givePhenotype(){
+            return phenotype_;
+    };
+
+    std::string crossPhenotypeLeftFirst(Phenotype* , Phenotype*);
+    std::string crossPhenotypeRigthFirst(Phenotype* , Phenotype*);
 };
 
 #endif //PROI_23_PHENOTYPE_H

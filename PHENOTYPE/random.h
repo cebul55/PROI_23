@@ -9,6 +9,7 @@
 #include <string>
 #include <random>
 #include <cstdlib>
+#include <cassert>
 
 #ifdef _WIN32
 #define CLEAR "cls"
@@ -16,7 +17,7 @@
 #define CLEAR "clear"
 #endif
 
-#define MAX_RAND 4
+#define MAX_RAND 2
 #define INITIAL_VALUE 0
 
 

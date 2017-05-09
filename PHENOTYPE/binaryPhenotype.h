@@ -29,6 +29,14 @@ public:
     virtual void writeSize(){
         std::cout<<maxSize_<<std::endl;
     }
+
+    virtual int giveSize(){
+        return maxSize_;
+    }
+
+    virtual std::string givePhenotype(){
+        return binaryPhenotype_;
+    };
  };
 
 #endif //PROI_23_BINARYPHENOTYPE_H

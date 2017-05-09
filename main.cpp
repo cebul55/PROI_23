@@ -6,11 +6,11 @@
 #include "UNIT/bagpackUnit.h"
 
 int main() {
-    Menu myMenu;
+    /*Menu myMenu;
     int menu=1;
     while(menu==1){
         menu=myMenu.menu();
-    }
+    }*/
 
     /*BagpackUnit b;
     b.writeBagpack();
@@ -22,6 +22,7 @@ int main() {
             copy.writeSpecyficBagpack();
         }
     }*/
+
 
     return 0;
 }
