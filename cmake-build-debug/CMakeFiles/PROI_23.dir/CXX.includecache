@@ -15,8 +15,8 @@ iostream
 -
 cstdlib
 -
-../POPULATION/population.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/population.h
+../POPULATION/containerOfPopulations.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/containerOfPopulations.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.cpp
 binaryPhenotype.h
@@ -57,6 +57,14 @@ cstdlib
 -
 cassert
 -
+
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/containerOfPopulations.cpp
+containerOfPopulations.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/containerOfPopulations.h
+
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/containerOfPopulations.h
+population.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/population.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/population.h
 ../UNIT/bagpackUnit.h

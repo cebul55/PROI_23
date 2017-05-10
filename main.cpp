@@ -10,6 +10,22 @@ int main() {
         menu=myMenu.menu();
     }*/
 
+    ContainerOfPopulations containter;
+    containter.addPopulation();
+    for(int i = 0 ; i < containter.populationBagpackContainer_[0].giveNumberOfUnits() ; i++){
+        containter.populationBagpackContainer_[0].writeUnit(i);
+    }
+    int n ;
+    std::cin>>n;
+    containter.populationBagpackContainer_[0].kill(n);
+    containter.populationBagpackContainer_[0].writeBestUnit();
+    /*containter.populationBagpackContainer_[0].writePopulation();
+    containter.populationBagpackContainer_[0].killPopulation();
+    containter.populationBagpackContainer_[0].writePopulation();
+    containter.populationBagpackContainer_[0].crossPopulation();
+    containter.populationBagpackContainer_[0].writePopulation();*/
+
+
     /*BagpackUnit b;
     b.write();
     int maks = 0;
@@ -40,12 +56,11 @@ int main() {
 /*    BagpackUnit b;
     BagpackUnit b1 = new BagpackUnit(&b);
     b1.write();*/
-    BagpackUnit sample;
-    Population<BagpackUnit> bagpacks(&sample,100);
+/*    BagpackUnit sample;
+    Population<BagpackUnit> bagpacks(&sample,100);*/
     /*for(int i = 0 ; i<10 ; i++){
         bagpacks.writeUnit(i);
     }*/
-    bagpacks.writeBestUnit();
 
     return 0;
 }

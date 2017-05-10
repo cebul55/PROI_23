@@ -27,14 +27,13 @@ void BagpackUnit::setSizeValueOfItems(int n) {
     int s , v;
     for(int i = 0 ; i<n ; i++){
         std::cin>>s>>v;
-        items_.push_back(s);
+        this->items_.push_back(s);
         this->values_.push_back(v);
     }
     return;
 }
 
 void BagpackUnit::write() {
-    system(CLEAR);
     std::cout<<"Bagpack size : "<< maxSize_<<std::endl;
     for(int i = 0 ; i<numberOfItems_;i++){
         std::cout<<"no. "<<i<<" size: "<<items_[i]<<" value: "<<values_[i]<<std::endl;

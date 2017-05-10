@@ -4,8 +4,6 @@
 #include "menu.h"
 
 int Menu::menu(){
-    //TODO write menu , finish bagpack menu
-    //add bagpack problem
     int choice;
     system(CLEAR);
     std::cout<<"Welcome!\nWhich problem would you like to solve?"<<std::endl;
@@ -17,23 +15,15 @@ int Menu::menu(){
         case 1:{
             system(CLEAR);
             std::cout<<"Bagpack problem menu:"<<std::endl;
-            std::cout<<"[1].Create new bagpack"<<std::endl;
+            std::cout<<"[1].Create new bagpack population"<<std::endl;
             std::cout<<"[2].Magage existing population of bagpacks"<<std::endl;
             std::cout<<"[0].Exit"<<std::endl;
             int choice1;
             std::cin>>choice1;
             switch (choice1){
                 case 1: {
-                    BagpackUnit b;
-                    b.write();
-                    int maks = 0;
-                    for (int i = 0; i < 100; i++) {
-                        BagpackUnit copy(b);
-                        if (copy.pushNote() > maks) {
-                            maks = copy.pushNote();
-                            copy.writeSpecyficBagpack();
-                        }
-                    }
+                    container.addPopulation();
+                    container.writePopulation();
                     break;
                 }
                 default:

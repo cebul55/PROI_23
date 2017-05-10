@@ -8,9 +8,10 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "../POPULATION/population.h"
+#include "../POPULATION/containerOfPopulations.h"
 
 class Menu{
+    ContainerOfPopulations container;
 public:
     int menu();
 };
