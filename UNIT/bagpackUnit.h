@@ -6,7 +6,7 @@
 #define PROI_23_BAGPACKUNIT_H
 
 #include <vector>
-#include "unit.h"
+#include "../PHENOTYPE/binaryPhenotype.h"
 
 class BagpackUnit{
     int maxSize_;
@@ -38,11 +38,11 @@ public:
             note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
     }
 
-    BagpackUnit(BagpackUnit &bagpack){
-            maxSize_ = bagpack.maxSize_,
-            numberOfItems_ = bagpack.numberOfItems_,
-            items_ = bagpack.items_,
-            values_ = bagpack.values_,
+    BagpackUnit(BagpackUnit *bagpack){
+            maxSize_ = bagpack->maxSize_,
+            numberOfItems_ = bagpack->numberOfItems_,
+            items_ = bagpack->items_,
+            values_ = bagpack->values_,
             stringBagpack_ = setStringBagpack(numberOfItems_),
             note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
     }
@@ -58,7 +58,7 @@ public:
     std::string pushPhenotype(){
         return stringBagpack_;
     }
-    void writeBagpack();
+    void write();
     int pushNote(){
         return note_;
     }

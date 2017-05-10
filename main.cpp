@@ -2,8 +2,6 @@
 // Created by Bartosz Cybulski on 26.04.2017.
 //
 #include "MENU/menu.h"
-#include "PHENOTYPE/numericPhenotype.h"
-#include "UNIT/bagpackUnit.h"
 
 int main() {
     /*Menu myMenu;
@@ -13,7 +11,7 @@ int main() {
     }*/
 
     /*BagpackUnit b;
-    b.writeBagpack();
+    b.write();
     int maks = 0;
     for(int i = 0 ; i < 100 ; i++){
         BagpackUnit copy(b);
@@ -23,20 +21,31 @@ int main() {
         }
     }*/
 
-    int maks = 0;
+/*    int maks = 0;
     BagpackUnit b;
     BagpackUnit copy1(b);
-    BagpackUnit copy2(b);
+    BagpackUnit copy2(b);*/
 
-    b.writeBagpack();
+ /*   b.write();
     for(int i = 0 ; i < 1000 ; i++) {
-        //copy1.writeBagpack();
-        //copy2.writeBagpack();
+        //copy1.write();
+        //copy2.write();
         BagpackUnit child(copy1, copy2);
         if(child.pushNote()>maks) {
             maks = child.pushNote();
-            child.writeBagpack();
+            child.write();
         }
-    }
+    }*/
+
+/*    BagpackUnit b;
+    BagpackUnit b1 = new BagpackUnit(&b);
+    b1.write();*/
+    BagpackUnit sample;
+    Population<BagpackUnit> bagpacks(&sample,100);
+    /*for(int i = 0 ; i<10 ; i++){
+        bagpacks.writeUnit(i);
+    }*/
+    bagpacks.writeBestUnit();
+
     return 0;
 }

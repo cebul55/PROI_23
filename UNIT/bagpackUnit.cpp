@@ -33,7 +33,7 @@ void BagpackUnit::setSizeValueOfItems(int n) {
     return;
 }
 
-void BagpackUnit::writeBagpack() {
+void BagpackUnit::write() {
     system(CLEAR);
     std::cout<<"Bagpack size : "<< maxSize_<<std::endl;
     for(int i = 0 ; i<numberOfItems_;i++){

@@ -25,7 +25,7 @@ int Menu::menu(){
             switch (choice1){
                 case 1: {
                     BagpackUnit b;
-                    b.writeBagpack();
+                    b.write();
                     int maks = 0;
                     for (int i = 0; i < 100; i++) {
                         BagpackUnit copy(b);

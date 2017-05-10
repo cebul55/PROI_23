@@ -312,33 +312,6 @@ UNIT/sudokuUnit.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.s
 .PHONY : UNIT/sudokuUnit.cpp.s
 
-UNIT/unit.o: UNIT/unit.cpp.o
-
-.PHONY : UNIT/unit.o
-
-# target to build an object file
-UNIT/unit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o
-.PHONY : UNIT/unit.cpp.o
-
-UNIT/unit.i: UNIT/unit.cpp.i
-
-.PHONY : UNIT/unit.i
-
-# target to preprocess a source file
-UNIT/unit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.i
-.PHONY : UNIT/unit.cpp.i
-
-UNIT/unit.s: UNIT/unit.cpp.s
-
-.PHONY : UNIT/unit.s
-
-# target to generate assembly for a file
-UNIT/unit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.s
-.PHONY : UNIT/unit.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -396,9 +369,6 @@ help:
 	@echo "... UNIT/sudokuUnit.o"
 	@echo "... UNIT/sudokuUnit.i"
 	@echo "... UNIT/sudokuUnit.s"
-	@echo "... UNIT/unit.o"
-	@echo "... UNIT/unit.i"
-	@echo "... UNIT/unit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

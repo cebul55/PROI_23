@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "../UNIT/bagpackUnit.h"
+#include "../POPULATION/population.h"
 
 class Menu{
 public:

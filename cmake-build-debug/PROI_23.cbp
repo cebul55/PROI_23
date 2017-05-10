@@ -110,6 +110,9 @@
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/random.h">
 			<Option target="PROI_23"/>
 		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/population.h">
+			<Option target="PROI_23"/>
+		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/bagpackUnit.cpp">
 			<Option target="PROI_23"/>
 		</Unit>
@@ -120,12 +123,6 @@
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.h">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.h">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/main.cpp">
