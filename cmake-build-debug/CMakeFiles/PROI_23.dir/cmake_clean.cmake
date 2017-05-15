@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o"
   "CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o"
   "CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o"
+  "CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.o"
+  "CMakeFiles/PROI_23.dir/UNIT/flyweightBagpackUnit.cpp.o"
   "PROI_23.pdb"
   "PROI_23"
 )

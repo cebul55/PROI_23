@@ -3,6 +3,7 @@
 //
 #include "phenotype.h"
 
+
 std::string Phenotype::crossPhenotypeLeftFirst(Phenotype *leftParent, Phenotype *rightParent) {
     assert(leftParent->giveSize()==rightParent->giveSize());
     Random generateNumber(leftParent->giveSize() - 1);
@@ -17,6 +18,7 @@ std::string Phenotype::crossPhenotypeLeftFirst(Phenotype *leftParent, Phenotype 
     return newPhenotype;
 }
 
+
 std::string Phenotype::crossPhenotypeRigthFirst(Phenotype *leftParent, Phenotype *rightParent) {
     assert(leftParent->giveSize()!=rightParent->giveSize());
     Random generateNumber(leftParent->giveSize() - 1);
@@ -28,4 +30,3 @@ std::string Phenotype::crossPhenotypeRigthFirst(Phenotype *leftParent, Phenotype
     newPhenotype += leftPhenotype.substr(generateNumber.pushValue(),leftParent->giveSize());
     return newPhenotype;
 }
-

@@ -5,21 +5,22 @@
 #ifndef PROI_23_POPULATION_H
 #define PROI_23_POPULATION_H
 
-#include "../UNIT/bagpackUnit.h"
+#include "../UNIT/flyweightBagpackUnit.h"
 #include "../UNIT/sudokuUnit.h"
 
 #define BAGPACK 1
 #define SUDOKU 2
 
-template <class T>
+template <class T, class FlyweightT>
 class Population{
     int name_;
     int numberOfUnits_;
     int maxNote_;
-    std::vector<T*> allUnits_;
+    std::vector<FlyweightT*> allUnits_;
     T *bestUnit_;
+    T *sampleUnit_;
 
-    void checkIfBest(T *unit) {
+    void checkIfBest(FlyweightT *unit) {
         if(unit->pushNote() > maxNote_){
             maxNote_ = unit->pushNote();
             bestUnit_ = unit;
@@ -118,7 +119,7 @@ public:
     }
     void writePopulation(){
         if(name_ == BAGPACK)
-            std::cout<<"Bagpack "<<std::endl;
+            std::cout<<"Type: Bagpack "<<std::endl;
         else
             std::cout<<"Sudoku "<<std::endl;
         std::cout<<"Number of Units : "<<numberOfUnits_<<std::endl;
@@ -129,6 +130,7 @@ public:
         return;
     }
     void writeBestUnit(){
+        std::cout<<"BEST UNIT"<<std::endl;
             bestUnit_->write();
     };
 

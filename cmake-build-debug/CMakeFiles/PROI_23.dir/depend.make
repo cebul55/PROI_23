@@ -16,6 +16,9 @@ CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o: ../PHENOTYPE/binaryPheno
 CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o: ../PHENOTYPE/random.h
 
+CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.o: ../PHENOTYPE/file.cpp
+CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.o: ../PHENOTYPE/file.h
+
 CMakeFiles/PROI_23.dir/PHENOTYPE/numericPhenotype.cpp.o: ../PHENOTYPE/numericPhenotype.cpp
 CMakeFiles/PROI_23.dir/PHENOTYPE/numericPhenotype.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/PHENOTYPE/numericPhenotype.cpp.o: ../PHENOTYPE/phenotype.h

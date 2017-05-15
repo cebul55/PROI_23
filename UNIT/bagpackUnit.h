@@ -13,14 +13,14 @@ class BagpackUnit{
     int numberOfItems_;
     int note_;
     std::string stringBagpack_;
-    std::vector<int> items_;
-    std::vector<int> values_;
     int setMaxSize();
     int setNumberOfItems();
     void setSizeValueOfItems(int);
-    std::string setStringBagpack(int);
     int setValue(int , int , std::string , std::vector<int> , std::vector<int> );
 public:
+    std::vector<int> items_;
+    std::vector<int> values_;
+
     BagpackUnit(int maxSize ,int numberOfItems, std::vector<int> items , std::vector<int> values) :
             numberOfItems_(numberOfItems),
             maxSize_(maxSize),
@@ -54,7 +54,12 @@ public:
             values_(bagpack1.values_){
             crossMutateBagpack(bagpack1 , bagpack2);
     }
-
+    int pushMaxSize(){
+        return maxSize_;
+    }
+    int pushNumberOfItems(){
+        return numberOfItems_;
+    }
     std::string pushPhenotype(){
         return stringBagpack_;
     }
@@ -66,6 +71,7 @@ public:
     void writeNote(){
         std::cout<<note_<<std::endl;
     }
+    std::string setStringBagpack(int);
     void crossMutateBagpack(BagpackUnit &bagpack1 , BagpackUnit &bagpack2);
 };
 

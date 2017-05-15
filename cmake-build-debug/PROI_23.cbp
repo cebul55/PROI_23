@@ -92,6 +92,12 @@
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.h">
 			<Option target="PROI_23"/>
 		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/file.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/file.h">
+			<Option target="PROI_23"/>
+		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/numericPhenotype.cpp">
 			<Option target="PROI_23"/>
 		</Unit>
@@ -123,6 +129,12 @@
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/bagpackUnit.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/flyweightBagpackUnit.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/flyweightBagpackUnit.h">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.cpp">

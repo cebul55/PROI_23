@@ -22,8 +22,7 @@ int Menu::menu(){
             std::cin>>choice1;
             switch (choice1){
                 case 1: {
-                    container.addPopulation();
-                    container.writePopulation();
+                    std::cout<<"tu cos bylo ale juz nie ma"<<std::endl;
                     break;
                 }
                 default:
@@ -33,6 +32,7 @@ int Menu::menu(){
         }
         case 2:{
             std::cout<<"Not working yet press any button";
+            //container::getInstance*()
             break;
         }
         case 0:{

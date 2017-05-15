@@ -6,20 +6,22 @@
 #define PROI_23_CONTAINEROFPOPULATIONS_H
 
 #include "population.h"
-
+//TODO implementacja jako singleton ??
 class ContainerOfPopulations{
 private:
     int bagpackCount_;
     int sudokuCount_;
     //std::vector<Population <BagpackUnit>> populationBagpackContainer_;
     //std::vector<Population <SudokuUnit>> populationSudokuContainer;
-    /*ContainerOfPopulations(const ContainerOfPopulations &){}
-    ~ContainerOfPopulations(){}*/
+    ContainerOfPopulations(){}
+    ContainerOfPopulations(const ContainerOfPopulations &){}
+    ContainerOfPopulations& operator=(const ContainerOfPopulations&);
+    ~ContainerOfPopulations(){}
 public:
-    /*static ContainerOfPopulations & getContainer(){
+    static ContainerOfPopulations & getInstanceContainer(){
         static ContainerOfPopulations container;
         return container;
-    }*/
+    }
     std::vector<Population <BagpackUnit>> populationBagpackContainer_;
 
     void addPopulation();
