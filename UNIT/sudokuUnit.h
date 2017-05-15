@@ -5,6 +5,6 @@
 #ifndef PROI_23_SUDOKUUNIT_H
 #define PROI_23_SUDOKUUNIT_H
 
-#include "../UNIT/sudokuUnit.h"
+#include "unit.h"
 
 #endif //PROI_23_SUDOKUUNIT_H

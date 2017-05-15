@@ -7,7 +7,6 @@
 
 #include "phenotype.h"
 
-class BagpackUnit;
 
 class BinaryPhenotype: public Phenotype{
     int maxSize_;

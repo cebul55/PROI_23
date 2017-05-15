@@ -3,21 +3,49 @@
 
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../FLYWEIGHT/flyweightBagpackUnit.cpp
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../FLYWEIGHT/flyweightBagpackUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../FLYWEIGHT/flyweightUnit.h
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../UNIT/bagpackUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o: ../UNIT/unit.h
+
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../FLYWEIGHT/flyweightSudokuUnit.cpp
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../FLYWEIGHT/flyweightSudokuUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../FLYWEIGHT/flyweightUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../PHENOTYPE/numericPhenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../PHENOTYPE/phenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../PHENOTYPE/random.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../UNIT/bagpackUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o: ../UNIT/unit.h
+
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../FLYWEIGHT/flyweightUnit.cpp
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../FLYWEIGHT/flyweightUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../PHENOTYPE/numericPhenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../PHENOTYPE/phenotype.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../PHENOTYPE/random.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../UNIT/bagpackUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o: ../UNIT/unit.h
 
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../FLYWEIGHT/flyweightBagpackUnit.h
+CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../FLYWEIGHT/flyweightUnit.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../MENU/menu.cpp
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../MENU/menu.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../POPULATION/containerOfPopulations.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../POPULATION/population.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../UNIT/bagpackUnit.h
 CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/MENU/menu.cpp.o: ../UNIT/unit.h
 
 CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o: ../PHENOTYPE/binaryPhenotype.cpp
 CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o: ../PHENOTYPE/binaryPhenotype.h
@@ -40,7 +68,9 @@ CMakeFiles/PROI_23.dir/PHENOTYPE/random.cpp.o: ../PHENOTYPE/random.cpp
 CMakeFiles/PROI_23.dir/PHENOTYPE/random.cpp.o: ../PHENOTYPE/random.h
 
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../FLYWEIGHT/flyweightBagpackUnit.h
+CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../FLYWEIGHT/flyweightUnit.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../POPULATION/containerOfPopulations.cpp
@@ -48,24 +78,42 @@ CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../POPULATION/co
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../POPULATION/population.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../UNIT/bagpackUnit.h
 CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o: ../UNIT/unit.h
 
 CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../UNIT/bagpackUnit.cpp
 CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../UNIT/bagpackUnit.h
+CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o: ../UNIT/unit.h
 
+CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../PHENOTYPE/numericPhenotype.h
+CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../PHENOTYPE/phenotype.h
+CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../UNIT/sudokuUnit.cpp
 CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o: ../UNIT/unit.h
+
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../PHENOTYPE/numericPhenotype.h
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../PHENOTYPE/phenotype.h
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../PHENOTYPE/random.h
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../UNIT/unit.cpp
+CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o: ../UNIT/unit.h
 
 CMakeFiles/PROI_23.dir/main.cpp.o: ../FLYWEIGHT/flyweightBagpackUnit.h
+CMakeFiles/PROI_23.dir/main.cpp.o: ../FLYWEIGHT/flyweightUnit.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../MENU/menu.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../PHENOTYPE/binaryPhenotype.h
+CMakeFiles/PROI_23.dir/main.cpp.o: ../PHENOTYPE/numericPhenotype.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../PHENOTYPE/phenotype.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../PHENOTYPE/random.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../POPULATION/containerOfPopulations.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../POPULATION/population.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../UNIT/bagpackUnit.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../UNIT/sudokuUnit.h
+CMakeFiles/PROI_23.dir/main.cpp.o: ../UNIT/unit.h
 CMakeFiles/PROI_23.dir/main.cpp.o: ../main.cpp
 

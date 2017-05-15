@@ -5,18 +5,17 @@
 #ifndef PROI_23_BAGPACKUNIT_H
 #define PROI_23_BAGPACKUNIT_H
 
-#include <vector>
-#include "../PHENOTYPE/binaryPhenotype.h"
+#include "unit.h"
 
-class BagpackUnit{
+class BagpackUnit: public Unit{
     int maxSize_;
     int numberOfItems_;
     int note_;
-    std::string stringBagpack_;
+    std::string phenotype_;
     int setMaxSize();
     int setNumberOfItems();
     void setSizeValueOfItems(int);
-    int setValue(int , int , std::string , std::vector<int> , std::vector<int> );
+    virtual int setValue(int , int , std::string , std::vector<int> , std::vector<int> );
 public:
     std::vector<int> items_;
     std::vector<int> values_;
@@ -26,16 +25,16 @@ public:
             maxSize_(maxSize),
             items_(items),
             values_(values){
-            stringBagpack_ = setStringBagpack(numberOfItems_),
-            note_ = setValue(maxSize_, numberOfItems_, stringBagpack_ , items_ , values_);
+            phenotype_ = setStringBagpack(numberOfItems_),
+            note_ = setValue(maxSize_, numberOfItems_, phenotype_ , items_ , values_);
     }
 
     BagpackUnit():
             numberOfItems_(setNumberOfItems()),
             maxSize_(setMaxSize()){
             setSizeValueOfItems(numberOfItems_);
-            stringBagpack_ = setStringBagpack(numberOfItems_);
-            note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
+            phenotype_ = setStringBagpack(numberOfItems_);
+            note_ = setValue(maxSize_, numberOfItems_ ,phenotype_ , items_ , values_);
     }
 
     BagpackUnit(BagpackUnit *bagpack){
@@ -43,8 +42,8 @@ public:
             numberOfItems_ = bagpack->numberOfItems_,
             items_ = bagpack->items_,
             values_ = bagpack->values_,
-            stringBagpack_ = setStringBagpack(numberOfItems_),
-            note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
+            phenotype_ = setStringBagpack(numberOfItems_),
+            note_ = setValue(maxSize_, numberOfItems_ ,phenotype_ , items_ , values_);
     }
 //crossing konstructor
     BagpackUnit(BagpackUnit &bagpack1 , BagpackUnit &bagpack2):
@@ -60,8 +59,8 @@ public:
     int pushNumberOfItems(){
         return numberOfItems_;
     }
-    std::string pushPhenotype(){
-        return stringBagpack_;
+    virtual std::string pushPhenotype(){
+        return phenotype_;
     }
     void write();
     int pushNote(){

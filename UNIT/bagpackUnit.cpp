@@ -38,7 +38,7 @@ void BagpackUnit::write() {
     for(int i = 0 ; i<numberOfItems_;i++){
         std::cout<<"no. "<<i<<" size: "<<items_[i]<<" value: "<<values_[i]<<std::endl;
     }
-    std::cout<<"Phenotype "<<stringBagpack_<<std::endl;
+    std::cout<<"Phenotype "<<phenotype_<<std::endl;
     std::cout<<"Note: "<<note_<<std::endl;
     return;
 }
@@ -67,10 +67,10 @@ int BagpackUnit::setValue(int maxSize,int numberOfItems , std::string phenotype,
 void BagpackUnit::writeSpecyficBagpack() {
         std::cout<<"Bagpack size : "<< maxSize_<<std::endl;
         for(int i = 0 ; i<numberOfItems_;i++){
-            if(stringBagpack_[i] == '1')
+            if(phenotype_[i] == '1')
             std::cout<<"no. "<<i<<" size: "<<items_[i]<<" value: "<<values_[i]<<std::endl;
         }
-        std::cout<<"Phenotype "<<stringBagpack_<<std::endl;
+        std::cout<<"Phenotype "<<phenotype_<<std::endl;
         std::cout<<"Note: "<<note_<<std::endl;
         return;
 }
@@ -78,15 +78,15 @@ void BagpackUnit::writeSpecyficBagpack() {
 void BagpackUnit::crossMutateBagpack(BagpackUnit &bagpack1 , BagpackUnit &bagpack2){
     BinaryPhenotype left(bagpack1.pushPhenotype());
     BinaryPhenotype right(bagpack2.pushPhenotype());
-    stringBagpack_=left.crossPhenotypeLeftFirst(&left, &right);
-    note_ = setValue(maxSize_, numberOfItems_ ,stringBagpack_ , items_ , values_);
+    phenotype_=left.crossPhenotypeLeftFirst(&left, &right);
+    note_ = setValue(maxSize_, numberOfItems_ ,phenotype_ , items_ , values_);
     //MUTATE
     Random generateNumber(ONEPROCENT);
     generateNumber.setValue();
     if(generateNumber.pushValue()==ONEPROCENT){
-        BinaryPhenotype mutate(stringBagpack_);
+        BinaryPhenotype mutate(phenotype_);
         mutate.mutatePhenotype();
-        stringBagpack_= mutate.givePhenotype();
+        phenotype_= mutate.givePhenotype();
         std::cout<<"MUTATED"<<std::endl;
     }
      return;

@@ -5,4 +5,6 @@
 #ifndef PROI_23_FLYWEIGHTSUDOKUUNIT_H
 #define PROI_23_FLYWEIGHTSUDOKUUNIT_H
 
+#include "flyweightUnit.h"
+
 #endif //PROI_23_FLYWEIGHTSUDOKUUNIT_H
