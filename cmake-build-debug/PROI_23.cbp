@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.h">
+			<Option target="PROI_23"/>
+		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/MENU/menu.cpp">
 			<Option target="PROI_23"/>
 		</Unit>
@@ -131,16 +149,16 @@
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/bagpackUnit.h">
 			<Option target="PROI_23"/>
 		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/flyweightBagpackUnit.cpp">
-			<Option target="PROI_23"/>
-		</Unit>
-		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/flyweightBagpackUnit.h">
-			<Option target="PROI_23"/>
-		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.cpp">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.h">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.cpp">
+			<Option target="PROI_23"/>
+		</Unit>
+		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.h">
 			<Option target="PROI_23"/>
 		</Unit>
 		<Unit filename="/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/main.cpp">

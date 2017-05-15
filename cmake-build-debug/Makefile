@@ -123,6 +123,87 @@ PROI_23/fast:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/build
 .PHONY : PROI_23/fast
 
+FLYWEIGHT/flyweightBagpackUnit.o: FLYWEIGHT/flyweightBagpackUnit.cpp.o
+
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.o
+
+# target to build an object file
+FLYWEIGHT/flyweightBagpackUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.cpp.o
+
+FLYWEIGHT/flyweightBagpackUnit.i: FLYWEIGHT/flyweightBagpackUnit.cpp.i
+
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.i
+
+# target to preprocess a source file
+FLYWEIGHT/flyweightBagpackUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.i
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.cpp.i
+
+FLYWEIGHT/flyweightBagpackUnit.s: FLYWEIGHT/flyweightBagpackUnit.cpp.s
+
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.s
+
+# target to generate assembly for a file
+FLYWEIGHT/flyweightBagpackUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.s
+.PHONY : FLYWEIGHT/flyweightBagpackUnit.cpp.s
+
+FLYWEIGHT/flyweightSudokuUnit.o: FLYWEIGHT/flyweightSudokuUnit.cpp.o
+
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.o
+
+# target to build an object file
+FLYWEIGHT/flyweightSudokuUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.cpp.o
+
+FLYWEIGHT/flyweightSudokuUnit.i: FLYWEIGHT/flyweightSudokuUnit.cpp.i
+
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.i
+
+# target to preprocess a source file
+FLYWEIGHT/flyweightSudokuUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.i
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.cpp.i
+
+FLYWEIGHT/flyweightSudokuUnit.s: FLYWEIGHT/flyweightSudokuUnit.cpp.s
+
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.s
+
+# target to generate assembly for a file
+FLYWEIGHT/flyweightSudokuUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.s
+.PHONY : FLYWEIGHT/flyweightSudokuUnit.cpp.s
+
+FLYWEIGHT/flyweightUnit.o: FLYWEIGHT/flyweightUnit.cpp.o
+
+.PHONY : FLYWEIGHT/flyweightUnit.o
+
+# target to build an object file
+FLYWEIGHT/flyweightUnit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o
+.PHONY : FLYWEIGHT/flyweightUnit.cpp.o
+
+FLYWEIGHT/flyweightUnit.i: FLYWEIGHT/flyweightUnit.cpp.i
+
+.PHONY : FLYWEIGHT/flyweightUnit.i
+
+# target to preprocess a source file
+FLYWEIGHT/flyweightUnit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.i
+.PHONY : FLYWEIGHT/flyweightUnit.cpp.i
+
+FLYWEIGHT/flyweightUnit.s: FLYWEIGHT/flyweightUnit.cpp.s
+
+.PHONY : FLYWEIGHT/flyweightUnit.s
+
+# target to generate assembly for a file
+FLYWEIGHT/flyweightUnit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.s
+.PHONY : FLYWEIGHT/flyweightUnit.cpp.s
+
 MENU/menu.o: MENU/menu.cpp.o
 
 .PHONY : MENU/menu.o
@@ -339,33 +420,6 @@ UNIT/bagpackUnit.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.s
 .PHONY : UNIT/bagpackUnit.cpp.s
 
-UNIT/flyweightBagpackUnit.o: UNIT/flyweightBagpackUnit.cpp.o
-
-.PHONY : UNIT/flyweightBagpackUnit.o
-
-# target to build an object file
-UNIT/flyweightBagpackUnit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/flyweightBagpackUnit.cpp.o
-.PHONY : UNIT/flyweightBagpackUnit.cpp.o
-
-UNIT/flyweightBagpackUnit.i: UNIT/flyweightBagpackUnit.cpp.i
-
-.PHONY : UNIT/flyweightBagpackUnit.i
-
-# target to preprocess a source file
-UNIT/flyweightBagpackUnit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/flyweightBagpackUnit.cpp.i
-.PHONY : UNIT/flyweightBagpackUnit.cpp.i
-
-UNIT/flyweightBagpackUnit.s: UNIT/flyweightBagpackUnit.cpp.s
-
-.PHONY : UNIT/flyweightBagpackUnit.s
-
-# target to generate assembly for a file
-UNIT/flyweightBagpackUnit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/flyweightBagpackUnit.cpp.s
-.PHONY : UNIT/flyweightBagpackUnit.cpp.s
-
 UNIT/sudokuUnit.o: UNIT/sudokuUnit.cpp.o
 
 .PHONY : UNIT/sudokuUnit.o
@@ -392,6 +446,33 @@ UNIT/sudokuUnit.s: UNIT/sudokuUnit.cpp.s
 UNIT/sudokuUnit.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.s
 .PHONY : UNIT/sudokuUnit.cpp.s
+
+UNIT/unit.o: UNIT/unit.cpp.o
+
+.PHONY : UNIT/unit.o
+
+# target to build an object file
+UNIT/unit.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o
+.PHONY : UNIT/unit.cpp.o
+
+UNIT/unit.i: UNIT/unit.cpp.i
+
+.PHONY : UNIT/unit.i
+
+# target to preprocess a source file
+UNIT/unit.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.i
+.PHONY : UNIT/unit.cpp.i
+
+UNIT/unit.s: UNIT/unit.cpp.s
+
+.PHONY : UNIT/unit.s
+
+# target to generate assembly for a file
+UNIT/unit.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/UNIT/unit.cpp.s
+.PHONY : UNIT/unit.cpp.s
 
 main.o: main.cpp.o
 
@@ -429,6 +510,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PROI_23"
+	@echo "... FLYWEIGHT/flyweightBagpackUnit.o"
+	@echo "... FLYWEIGHT/flyweightBagpackUnit.i"
+	@echo "... FLYWEIGHT/flyweightBagpackUnit.s"
+	@echo "... FLYWEIGHT/flyweightSudokuUnit.o"
+	@echo "... FLYWEIGHT/flyweightSudokuUnit.i"
+	@echo "... FLYWEIGHT/flyweightSudokuUnit.s"
+	@echo "... FLYWEIGHT/flyweightUnit.o"
+	@echo "... FLYWEIGHT/flyweightUnit.i"
+	@echo "... FLYWEIGHT/flyweightUnit.s"
 	@echo "... MENU/menu.o"
 	@echo "... MENU/menu.i"
 	@echo "... MENU/menu.s"
@@ -453,12 +543,12 @@ help:
 	@echo "... UNIT/bagpackUnit.o"
 	@echo "... UNIT/bagpackUnit.i"
 	@echo "... UNIT/bagpackUnit.s"
-	@echo "... UNIT/flyweightBagpackUnit.o"
-	@echo "... UNIT/flyweightBagpackUnit.i"
-	@echo "... UNIT/flyweightBagpackUnit.s"
 	@echo "... UNIT/sudokuUnit.o"
 	@echo "... UNIT/sudokuUnit.i"
 	@echo "... UNIT/sudokuUnit.s"
+	@echo "... UNIT/unit.o"
+	@echo "... UNIT/unit.i"
+	@echo "... UNIT/unit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

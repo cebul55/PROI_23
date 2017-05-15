@@ -28,8 +28,8 @@ void ContainerOfPopulations::makeBagpackPopulation() {
     std::cin>>n;
     assert(n>0);
     name = BAGPACK;
-    BagpackUnit sample;
-    Population<BagpackUnit> backpacks(&sample , n , name);
+    BagpackUnit *sample = new BagpackUnit;
+    Population<BagpackUnit , FlyweightBagpackUnit> backpacks(sample , n , name);
     bagpackCount_++;
     populationBagpackContainer_.push_back(backpacks);
     return;

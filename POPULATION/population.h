@@ -5,7 +5,7 @@
 #ifndef PROI_23_POPULATION_H
 #define PROI_23_POPULATION_H
 
-#include "../UNIT/flyweightBagpackUnit.h"
+#include "../FLYWEIGHT/flyweightBagpackUnit.h"
 #include "../UNIT/sudokuUnit.h"
 
 #define BAGPACK 1
@@ -17,7 +17,7 @@ class Population{
     int numberOfUnits_;
     int maxNote_;
     std::vector<FlyweightT*> allUnits_;
-    T *bestUnit_;
+    FlyweightT *bestUnit_;
     T *sampleUnit_;
 
     void checkIfBest(FlyweightT *unit) {
@@ -31,6 +31,7 @@ class Population{
 
 public:
     Population(T *unit, int numberOfUnits , int name):
+            sampleUnit_(unit),
             numberOfUnits_(numberOfUnits),
             name_(name){
         maxNote_ = (-1);
@@ -39,7 +40,7 @@ public:
         }
     }
     void addNewUnit(T *unit){
-        T *newUnit = new T(unit);
+        FlyweightT *newUnit = new FlyweightT(unit);
         assert(newUnit != NULL);
         this->checkIfBest(newUnit);
         allUnits_.push_back(newUnit);
@@ -106,8 +107,8 @@ public:
                 right = generateUnit.pushValue();
                 check++;
             }
-            T *son = new T(*allUnits_[left],*allUnits_[right]);
-            T *daughter = new T(*allUnits_[right],*allUnits_[left]);
+            FlyweightBagpackUnit *son = new FlyweightBagpackUnit(*allUnits_[left],*allUnits_[right],sampleUnit_);
+            FlyweightBagpackUnit *daughter = new FlyweightBagpackUnit(*allUnits_[right],*allUnits_[left],sampleUnit_);
             allUnits_.push_back(son);
             allUnits_.push_back(daughter);
             this->checkIfBest(son);
@@ -123,15 +124,15 @@ public:
         else
             std::cout<<"Sudoku "<<std::endl;
         std::cout<<"Number of Units : "<<numberOfUnits_<<std::endl;
-        bestUnit_->write();
+        bestUnit_->write(sampleUnit_);
     }
     void writeUnit(int i){
-        allUnits_[i]->write();
+        allUnits_[i]->write(sampleUnit_);
         return;
     }
     void writeBestUnit(){
         std::cout<<"BEST UNIT"<<std::endl;
-            bestUnit_->write();
+            bestUnit_->write(sampleUnit_);
     };
 
     int giveNumberOfUnits(){

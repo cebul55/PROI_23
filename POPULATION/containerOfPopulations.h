@@ -22,7 +22,7 @@ public:
         static ContainerOfPopulations container;
         return container;
     }
-    std::vector<Population <BagpackUnit>> populationBagpackContainer_;
+    std::vector<Population <BagpackUnit , FlyweightBagpackUnit> > populationBagpackContainer_;
 
     void addPopulation();
     void makeBagpackPopulation();
