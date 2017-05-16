@@ -8,13 +8,27 @@
 #include "phenotype.h"
 
 class NumericPhenotype : public Phenotype{
-    std::vector<std::string> phenotype_;
+    int maxSize_;
+    std::vector<std::string> numericPhenotype_;
     int note_;
-    void generatePhenotype(std::vector<std::vector<int> >* , int size);
+    void generatePhenotype(std::vector<std::vector<int> > , int size);
+    std::string insertNumberInPhenotype(int);
+    std::vector<std::vector<int> > generateHelpBoard(std::vector<std::vector<int> > , int size);
 public:
-//TODO sudoku phenotype methods vector stringów ???
-    NumericPhenotype(std::vector<std::vector<int> > *sudokuBoard , int maxSize ){
+    NumericPhenotype(std::vector<std::vector<int> > sudokuBoard , int maxSize ):
+            maxSize_(maxSize){
         generatePhenotype(sudokuBoard , maxSize);
+    }
+    void write(){
+        for( int i = 0 ; i < maxSize_; i++){
+            for ( int j = 0 ; j < numericPhenotype_[i].size() ; j++){
+                std::cout<<numericPhenotype_[i][j]<<" ";
+            }
+            std::cout<<std::endl;
+        }
+    }
+    std::vector<std::string> giveNumericPhenotype(){
+        return numericPhenotype_;
     }
 };
 

@@ -56,6 +56,9 @@ int main() {
 
     SudokuUnit s;
     s.writeSudokuBoard();
+    std::cout<<"phenotype "<<std::endl;
+    s.writePhenotype();
+
 
     return 0;
 }

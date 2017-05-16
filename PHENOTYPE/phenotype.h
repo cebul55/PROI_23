@@ -25,7 +25,7 @@ public:
         return size_;
     }
 
-    virtual std::string givePhenotype(){
+    std::string givePhenotype(){
             return phenotype_;
     };
 

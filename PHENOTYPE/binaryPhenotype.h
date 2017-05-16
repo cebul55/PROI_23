@@ -38,7 +38,7 @@ public:
         return maxSize_;
     }
 
-    virtual std::string givePhenotype(){
+    std::string givePhenotype(){
         return binaryPhenotype_;
     };
 
