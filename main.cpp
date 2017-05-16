@@ -10,9 +10,6 @@ int main() {
         menu=myMenu.menu();
     }*/
 
-    ContainerOfPopulations::getInstanceContainer().addPopulation();
-    ContainerOfPopulations::getInstanceContainer().addPopulation();
-    ContainerOfPopulations::getInstanceContainer().writePopulation();
 
     /*containter.populationBagpackContainer_[0].writePopulation();
     containter.populationBagpackContainer_[0].killPopulation();
@@ -56,6 +53,9 @@ int main() {
     /*for(int i = 0 ; i<10 ; i++){
         bagpacks.writeUnit(i);
     }*/
+
+    SudokuUnit s;
+    s.writeSudokuBoard();
 
     return 0;
 }

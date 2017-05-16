@@ -12,7 +12,6 @@ int BagpackUnit::setNumberOfItems() {
     std::cin>>numberOfItems;
     return numberOfItems;
 }
-
 int BagpackUnit::setMaxSize() {
     system(CLEAR);
     int maxSize;
@@ -34,7 +33,7 @@ void BagpackUnit::setSizeValueOfItems(int n) {
 }
 
 void BagpackUnit::write() {
-    std::cout<<"Bagpack size : "<< maxSize_<<std::endl;
+    std::cout<<"Bagpack maximum size : "<< maxSize_<<std::endl;
     for(int i = 0 ; i<numberOfItems_;i++){
         std::cout<<"no. "<<i<<" size: "<<items_[i]<<" value: "<<values_[i]<<std::endl;
     }

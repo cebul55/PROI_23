@@ -8,10 +8,14 @@
 #include "phenotype.h"
 
 class NumericPhenotype : public Phenotype{
-    std::string numericPhenotype_;
+    std::vector<std::string> phenotype_;
     int note_;
+    void generatePhenotype(std::vector<std::vector<int> >* , int size);
 public:
 //TODO sudoku phenotype methods vector stringów ???
+    NumericPhenotype(std::vector<std::vector<int> > *sudokuBoard , int maxSize ){
+        generatePhenotype(sudokuBoard , maxSize);
+    }
 };
 
 #endif //PROI_23_NUMERICPHENOTYPE_H

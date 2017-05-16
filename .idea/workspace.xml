@@ -14,23 +14,22 @@
     <list default="true" id="e09116f6-6aa6-4c90-819e-ef9278fa0393" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/MENU/menu.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/MENU/menu.cpp.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/POPULATION/containerOfPopulations.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/UNIT/bagpackUnit.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/UNIT/sudokuUnit.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/main.cpp.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/PROI_23" afterPath="$PROJECT_DIR$/cmake-build-debug/PROI_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.h" afterPath="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FLYWEIGHT/flyweightSudokuUnit.h" afterPath="$PROJECT_DIR$/FLYWEIGHT/flyweightSudokuUnit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.cpp" afterPath="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h" afterPath="$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h" afterPath="$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp" afterPath="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h" afterPath="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNIT/bagpackUnit.cpp" afterPath="$PROJECT_DIR$/UNIT/bagpackUnit.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNIT/bagpackUnit.h" afterPath="$PROJECT_DIR$/UNIT/bagpackUnit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNIT/sudokuUnit.cpp" afterPath="$PROJECT_DIR$/UNIT/sudokuUnit.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNIT/sudokuUnit.h" afterPath="$PROJECT_DIR$/UNIT/sudokuUnit.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UNIT/unit.h" afterPath="$PROJECT_DIR$/UNIT/unit.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PROI_23.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,38 +51,38 @@
       <file leaf-file-name="binaryPhenotype.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="39">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flyweightUnit.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="548">
+              <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flyweightSudokuUnit.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightSudokuUnit.h">
+      <file leaf-file-name="sudokuUnit.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flyweightBagpackUnit.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.h">
+      <file leaf-file-name="sudokuUnit.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="458">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -102,8 +101,18 @@
       <file leaf-file-name="numericPhenotype.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numericPhenotype.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -139,21 +148,25 @@
         <option value="$PROJECT_DIR$/PHENOTYPE/file.h" />
         <option value="$PROJECT_DIR$/MENU/menu.cpp" />
         <option value="$PROJECT_DIR$/PHENOTYPE/phenotype.cpp" />
-        <option value="$PROJECT_DIR$/UNIT/bagpackUnit.cpp" />
         <option value="$PROJECT_DIR$/UNIT/flyweightBagpackUnit.cpp" />
         <option value="$PROJECT_DIR$/UNIT/flyweightBagpackUnit.h" />
         <option value="$PROJECT_DIR$/POPULATION/containerOfPopulations.h" />
         <option value="$PROJECT_DIR$/POPULATION/containerOfPopulations.cpp" />
         <option value="$PROJECT_DIR$/POPULATION/population.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.cpp" />
-        <option value="$PROJECT_DIR$/UNIT/sudokuUnit.h" />
         <option value="$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h" />
-        <option value="$PROJECT_DIR$/UNIT/bagpackUnit.h" />
-        <option value="$PROJECT_DIR$/UNIT/unit.h" />
-        <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h" />
         <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightSudokuUnit.h" />
         <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.h" />
+        <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h" />
+        <option value="$PROJECT_DIR$/UNIT/unit.h" />
+        <option value="$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.cpp" />
+        <option value="$PROJECT_DIR$/UNIT/bagpackUnit.cpp" />
+        <option value="$PROJECT_DIR$/UNIT/bagpackUnit.h" />
+        <option value="$PROJECT_DIR$/UNIT/sudokuUnit.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/UNIT/sudokuUnit.cpp" />
+        <option value="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h" />
+        <option value="$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp" />
       </list>
     </option>
   </component>
@@ -517,12 +530,13 @@
       <workItem from="1494460328122" duration="2027000" />
       <workItem from="1494517289038" duration="2034000" />
       <workItem from="1494874137842" duration="497000" />
-      <workItem from="1494874659016" duration="8904000" />
+      <workItem from="1494874659016" duration="8906000" />
+      <workItem from="1494938015796" duration="5041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69765000" />
+    <option name="totallyTimeSpent" value="74808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,19 +549,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="826" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3516949" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3601695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34745762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34745762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21468927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17238913" sideWeight="0.829096" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.829096" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36581922" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15522175" sideWeight="0.17090395" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36581922" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -738,28 +753,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#100#119#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHENOTYPE/fileOpenClose.cpp" />
     <entry file="file://$PROJECT_DIR$/PHENOTYPE/fileOpenClose.h" />
-    <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MENU/menu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -768,19 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHENOTYPE/file.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHENOTYPE/file.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="4006" column="0" lean-forward="false" selection-start-line="4006" selection-start-column="0" selection-end-line="4006" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="3003" column="0" lean-forward="false" selection-start-line="3003" selection-start-column="0" selection-end-line="3003" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,23 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="1604" column="0" lean-forward="false" selection-start-line="1604" selection-start-column="0" selection-end-line="1604" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,15 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/unit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,14 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/bagpackUnit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -918,64 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHENOTYPE/phenotype.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/unit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#100#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/bagpackUnit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightSudokuUnit.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -986,8 +879,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="518">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#118#150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/unit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FLYWEIGHT/flyweightBagpackUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/unit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/bagpackUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/bagpackUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHENOTYPE/phenotype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHENOTYPE/binaryPhenotype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHENOTYPE/file.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UNIT/sudokuUnit.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHENOTYPE/numericPhenotype.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding />
         </state>
       </provider>

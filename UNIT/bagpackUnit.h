@@ -12,7 +12,7 @@ class BagpackUnit: public Unit{
     int numberOfItems_;
     int note_;
     std::string phenotype_;
-    int setMaxSize();
+    virtual int setMaxSize();
     int setNumberOfItems();
     void setSizeValueOfItems(int);
     virtual int setValue(int , int , std::string , std::vector<int> , std::vector<int> );

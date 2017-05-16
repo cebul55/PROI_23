@@ -10,15 +10,19 @@
 #include "../PHENOTYPE/numericPhenotype.h"
 
 class Unit{
-    int size_;
+    int maxSize_;
     int note_;
     std::string phenotype_;
 public:
-    virtual std::string pushPhenotype(){
-        return phenotype_;
+    virtual int setMaxSize(){
+        int size = 0;
+        return size;
     }
-    virtual int pushSize(){
-        return size_;
+    virtual std::string pushPhenotype(){
+        return  phenotype_;
+    }
+    virtual int pushMaxSize(){
+        return  maxSize_;
     }
     virtual int pushNote(){
         return note_;
