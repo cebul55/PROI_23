@@ -11,7 +11,7 @@ void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBo
     for(int i = 0 ; i < size ; i++){
         numericPhenotype_.push_back("");
     }
-    for(int i = 0 ; i < size ; i += sizeOfSubgrid){
+/*    for(int i = 0 ; i < size ; i += sizeOfSubgrid){
         for(int j = 0 ; j < size ; j += sizeOfSubgrid){
             for( int ii = i ; ii < i + sizeOfSubgrid ; ii++){
                 //numericPhenotype_.push_back("");
@@ -30,10 +30,26 @@ void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBo
                         std::string add = insertNumberInPhenotype(sudokuBoard[ii][jj]);
                         numericPhenotype_[ii] += add;
                     }
-                        //phenotype_[ii]+insertNumberInPhenotype(sudokuBoard[ii][jj]);
-                        //phenotype_[ii].push_back(insertNumberInPhenotype(sudokuBoard[ii][jj]));
                 }
             }
+        }
+    }*/
+    int subgridIterator;
+    for ( int i = 0 ; i < size ; i++){
+        for(int j = 0 ; j < size ; j++){
+            subgridIterator = j/sizeOfSubgrid +sizeOfSubgrid*(i/sizeOfSubgrid);
+
+            if(sudokuBoard[i][j] == 0 ){
+                generateNumber.setValue();
+                int whichNumberAdd;
+                if( lackingNumbers[subgridIterator].size() == 0)
+                    whichNumberAdd = 0;
+                else
+                    whichNumberAdd = generateNumber.pushValue() % lackingNumbers[subgridIterator].size();
+                numericPhenotype_[subgridIterator]+=insertNumberInPhenotype(lackingNumbers[subgridIterator][whichNumberAdd]);
+                lackingNumbers[subgridIterator].erase(lackingNumbers[subgridIterator].begin()+whichNumberAdd);
+            } else
+                numericPhenotype_[subgridIterator] += insertNumberInPhenotype(sudokuBoard[i][j]);
         }
     }
 
@@ -80,57 +96,12 @@ std::vector<std::vector<int> > NumericPhenotype::generateHelpBoard(std::vector<s
 
 std::string NumericPhenotype::insertNumberInPhenotype(int n) {
     std::string character;
-    switch(n){
-        case 1:
-            character = "1";
-            break;
-        case 2:
-            character = "2";
-            break;
-        case 3:
-            character = "3";
-            break;
-        case 4:
-            character = "4";
-            break;
-        case 5:
-            character = "5";
-            break;
-        case 6:
-            character = "6";
-            break;
-        case 7:
-            character = "7";
-            break;
-        case 8:
-            character = "8";
-            break;
-        case 9:
-            character = "9";
-            break;
-        case 10:
-            character = "A";
-            break;
-        case 11:
-            character = "B";
-            break;
-        case 12:
-            character = "C";
-            break;
-        case 13:
-            character = "D";
-            break;
-        case 14:
-            character = "E";
-            break;
-        case 15:
-            character = "F";
-            break;
-        case 16:
-            character = "G";
-            break;
-        default:
-            break;
-        }
+    while(n>0){
+        std::string add;
+        add = n%10+48;
+        character = add+character;
+        n = n/10;
+    }
+    character += "|";
     return character;
 }
