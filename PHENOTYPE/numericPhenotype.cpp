@@ -10,30 +10,10 @@ void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBo
     std::vector<std::vector<int> > lackingNumbers = generateHelpBoard(sudokuBoard , size);
     for(int i = 0 ; i < size ; i++){
         numericPhenotype_.push_back("");
-    }
-/*    for(int i = 0 ; i < size ; i += sizeOfSubgrid){
-        for(int j = 0 ; j < size ; j += sizeOfSubgrid){
-            for( int ii = i ; ii < i + sizeOfSubgrid ; ii++){
-                //numericPhenotype_.push_back("");
-                for( int jj = j ; jj < j+sizeOfSubgrid ; jj++){
-                    if(sudokuBoard[ii][jj] == 0){
-                        generateNumber.setValue();
-                        int whichNumberAdd;
-                        if(generateNumber.pushValue() % lackingNumbers[ii].size() == 0)
-                            whichNumberAdd = 0;
-                        else
-                            whichNumberAdd = generateNumber.pushValue() % lackingNumbers[ii].size();
-                        numericPhenotype_[ii]+=insertNumberInPhenotype(lackingNumbers[ii][whichNumberAdd]);
-                        lackingNumbers[ii].erase(lackingNumbers[ii].begin()+whichNumberAdd);
-                    }
-                    else{
-                        std::string add = insertNumberInPhenotype(sudokuBoard[ii][jj]);
-                        numericPhenotype_[ii] += add;
-                    }
-                }
-            }
+        if( i < sizeOfSubgrid){
+
         }
-    }*/
+    }
     int subgridIterator;
     for ( int i = 0 ; i < size ; i++){
         for(int j = 0 ; j < size ; j++){
@@ -58,6 +38,7 @@ void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBo
 std::vector<std::vector<int> > NumericPhenotype::generateHelpBoard(std::vector<std::vector<int> > sudokuBoard, int size){
     int sizeOfSubgrid = sqrt(size);
     std::vector<std::vector<int> > helpBoard;
+
     for( int  i = 0 ; i < size ; i+=sizeOfSubgrid){
         for(int j = 0 ; j < size; j+=sizeOfSubgrid){
             std::vector<int> subgrid;

@@ -12,15 +12,20 @@ class SudokuUnit: public Unit{
     int note_;
     std::vector<std::string> phenotype_;
     std::vector < std::vector <int> > sudokuBoard_;
+    std::vector <std::string> generatedSudokuBoard_;
     int setMaxSize();
     void setSudokuBoard(int);
+    void setNote();
 public:
     SudokuUnit(){
             maxSize_ = setMaxSize(),
             setSudokuBoard(maxSize_);
             NumericPhenotype phenotype(sudokuBoard_, maxSize_);
             phenotype_ = phenotype.giveNumericPhenotype();
+            decodePhenotype();
+            setNote();
     }
+    void decodePhenotype();
     void writePhenotype(){
         for( int i = 0 ; i < maxSize_; i++){
             for ( int j = 0 ; j < phenotype_[i].size() ; j++){

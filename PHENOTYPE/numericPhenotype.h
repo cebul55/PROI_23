@@ -10,7 +10,6 @@
 class NumericPhenotype : public Phenotype{
     int maxSize_;
     std::vector<std::string> numericPhenotype_;
-    int note_;
     void generatePhenotype(std::vector<std::vector<int> > , int size);
     std::string insertNumberInPhenotype(int);
     std::vector<std::vector<int> > generateHelpBoard(std::vector<std::vector<int> > , int size);

@@ -44,3 +44,41 @@ void SudokuUnit::writeSudokuBoard(){
         std::cout<<std::endl;
     }
 }
+
+void SudokuUnit::decodePhenotype() {
+    int sizeOfSubgrid = sqrt(maxSize_);
+    int subgridIterator;
+    for(int i = 0 ; i < maxSize_ ; i++){
+        generatedSudokuBoard_.push_back("");
+    }
+    for ( int i = 0 ; i < maxSize_ ; i++){
+        std::string row;
+        for( int j = 0 ; j < 2*sizeOfSubgrid ; j++){
+            row.push_back(phenotype_[i][j]);
+        }
+        generatedSudokuBoard_[i] += row;
+    }
+    //TODO not working decoding phenotype and coding phenotype is not fully working
+}
+
+void SudokuUnit::setNote() {
+    for(int i = 0 ; i < maxSize_ ; i++){
+        int row[300];
+        for(int j = 0 ; j < maxSize_ ; j++){
+            row[generatedSudokuBoard_[i][j]]++;
+            if(row[generatedSudokuBoard_[i][j]] > 1){
+                note_++;
+            }
+        }
+    }
+    for(int i = 0 ; i < maxSize_ ; i++){
+        int coulumn[300];
+        for(int j = 0 ; j < maxSize_ ; j++){
+            coulumn[generatedSudokuBoard_[j][i]]++;
+            if(coulumn[generatedSudokuBoard_[j][i]] > 1){
+                note_++;
+            }
+        }
+    }
+
+}
