@@ -86,3 +86,18 @@ std::string NumericPhenotype::insertNumberInPhenotype(int n) {
     character += "|";
     return character;
 }
+
+std::vector<std::string> NumericPhenotype::crossPhenotype(std::vector<std::string> left, std::vector<std::string> right) {
+    std::vector<std::string> phenotype;
+    Random generateNumber(left[0].size());
+    for(int i = 0 ; i < left[i].size(); i++ ){
+        generateNumber.setValue();
+        for( int j = 0 ; j < generateNumber.pushValue() ; j++){
+            phenotype[i].push_back(left[i][j]);
+        }
+        for( int k = generateNumber.pushValue() ; k < left.size() ; k++){
+            phenotype[i].push_back(right[i][k]);
+        }
+    }
+    return  phenotype;
+}

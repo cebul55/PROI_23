@@ -16,6 +16,9 @@ void ContainerOfPopulations::addPopulation() {
         case 1:
             this->makeBagpackPopulation();
             break;
+        case 2:
+            std::cout<<"added but not connected function"<<std::endl;
+            break;
         default:
             break;
     }
@@ -32,6 +35,19 @@ void ContainerOfPopulations::makeBagpackPopulation() {
     Population<BagpackUnit , FlyweightBagpackUnit> backpacks(sample , n , name);
     bagpackCount_++;
     populationBagpackContainer_.push_back(backpacks);
+    return;
+}
+void ContainerOfPopulations::makeSudokuPopulation(){
+    system(CLEAR);
+    std::cout<<"How many Sudoku units do you want to create?"<<std::endl;
+    int n , name;
+    std::cin>>n;
+    assert(n>0);
+    name = SUDOKU;
+    SudokuUnit *sample = new SudokuUnit;
+    Population<SudokuUnit , FlyweightSudokuUnit> sudokus(sample , n , name);
+    sudokuCount_++;
+    populationSudokuContainer_.push_back(sudokus);
     return;
 }
 //TODO wzorce dekorator , most , fabryka ??? , nie behawioralne a obiektowe  , STRATEGIA , SINGLETON, FASADA

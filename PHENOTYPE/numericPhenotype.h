@@ -14,6 +14,7 @@ class NumericPhenotype : public Phenotype{
     std::string insertNumberInPhenotype(int);
     std::vector<std::vector<int> > generateHelpBoard(std::vector<std::vector<int> > , int size);
 public:
+    NumericPhenotype(){};
     NumericPhenotype(std::vector<std::vector<int> > sudokuBoard , int maxSize ):
             maxSize_(maxSize){
         generatePhenotype(sudokuBoard , maxSize);
@@ -29,6 +30,7 @@ public:
     std::vector<std::string> giveNumericPhenotype(){
         return numericPhenotype_;
     }
+    std::vector<std::string> crossPhenotype(std::vector<std::string> , std::vector<std::string>);
 };
 
 #endif //PROI_23_NUMERICPHENOTYPE_H

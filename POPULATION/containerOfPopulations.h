@@ -22,10 +22,10 @@ public:
         return container;
     }
     std::vector<Population <BagpackUnit , FlyweightBagpackUnit> > populationBagpackContainer_;
-
+    std::vector<Population <SudokuUnit , FlyweightSudokuUnit> > populationSudokuContainer_;
     void addPopulation();
     void makeBagpackPopulation();
-    //void makeSudokuPopulation();
+    void makeSudokuPopulation();
 
     void writePopulation(){
         for(int i = 0 ; i<populationBagpackContainer_.size() ; i++) {

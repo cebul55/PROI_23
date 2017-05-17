@@ -11,24 +11,14 @@ flyweightBagpackUnit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.h
-flyweightUnit.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.h
+../Unit/bagpackUnit.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/Unit/bagpackUnit.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.cpp
 flyweightSudokuUnit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.h
-flyweightUnit.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.h
-
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.cpp
-flyweightUnit.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.h
-
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightUnit.h
-../UNIT/bagpackUnit.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/bagpackUnit.h
 ../UNIT/sudokuUnit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.h
 
@@ -51,12 +41,6 @@ binaryPhenotype.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.h
 phenotype.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/phenotype.h
-
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/file.cpp
-file.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/file.h
-
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/file.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/numericPhenotype.cpp
 numericPhenotype.h
@@ -101,8 +85,8 @@ population.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/population.h
 ../FLYWEIGHT/flyweightBagpackUnit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.h
-../UNIT/sudokuUnit.h
-/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/sudokuUnit.h
+../FLYWEIGHT/flyweightSudokuUnit.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightSudokuUnit.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/bagpackUnit.cpp
 bagpackUnit.h
@@ -125,6 +109,18 @@ unit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/UNIT/unit.h
+vector
+-
+../PHENOTYPE/binaryPhenotype.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.h
+../PHENOTYPE/numericPhenotype.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/numericPhenotype.h
+
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/Unit/bagpackUnit.h
+unit.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/Unit/unit.h
+
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/Unit/unit.h
 vector
 -
 ../PHENOTYPE/binaryPhenotype.h

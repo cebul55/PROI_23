@@ -11,7 +11,6 @@
 #include "../POPULATION/containerOfPopulations.h"
 
 class Menu{
-    ContainerOfPopulations container;
 public:
     int menu();
 };

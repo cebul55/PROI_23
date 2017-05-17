@@ -177,33 +177,6 @@ FLYWEIGHT/flyweightSudokuUnit.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.s
 .PHONY : FLYWEIGHT/flyweightSudokuUnit.cpp.s
 
-FLYWEIGHT/flyweightUnit.o: FLYWEIGHT/flyweightUnit.cpp.o
-
-.PHONY : FLYWEIGHT/flyweightUnit.o
-
-# target to build an object file
-FLYWEIGHT/flyweightUnit.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.o
-.PHONY : FLYWEIGHT/flyweightUnit.cpp.o
-
-FLYWEIGHT/flyweightUnit.i: FLYWEIGHT/flyweightUnit.cpp.i
-
-.PHONY : FLYWEIGHT/flyweightUnit.i
-
-# target to preprocess a source file
-FLYWEIGHT/flyweightUnit.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.i
-.PHONY : FLYWEIGHT/flyweightUnit.cpp.i
-
-FLYWEIGHT/flyweightUnit.s: FLYWEIGHT/flyweightUnit.cpp.s
-
-.PHONY : FLYWEIGHT/flyweightUnit.s
-
-# target to generate assembly for a file
-FLYWEIGHT/flyweightUnit.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightUnit.cpp.s
-.PHONY : FLYWEIGHT/flyweightUnit.cpp.s
-
 MENU/menu.o: MENU/menu.cpp.o
 
 .PHONY : MENU/menu.o
@@ -257,33 +230,6 @@ PHENOTYPE/binaryPhenotype.s: PHENOTYPE/binaryPhenotype.cpp.s
 PHENOTYPE/binaryPhenotype.cpp.s:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/PHENOTYPE/binaryPhenotype.cpp.s
 .PHONY : PHENOTYPE/binaryPhenotype.cpp.s
-
-PHENOTYPE/file.o: PHENOTYPE/file.cpp.o
-
-.PHONY : PHENOTYPE/file.o
-
-# target to build an object file
-PHENOTYPE/file.cpp.o:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.o
-.PHONY : PHENOTYPE/file.cpp.o
-
-PHENOTYPE/file.i: PHENOTYPE/file.cpp.i
-
-.PHONY : PHENOTYPE/file.i
-
-# target to preprocess a source file
-PHENOTYPE/file.cpp.i:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.i
-.PHONY : PHENOTYPE/file.cpp.i
-
-PHENOTYPE/file.s: PHENOTYPE/file.cpp.s
-
-.PHONY : PHENOTYPE/file.s
-
-# target to generate assembly for a file
-PHENOTYPE/file.cpp.s:
-	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/PHENOTYPE/file.cpp.s
-.PHONY : PHENOTYPE/file.cpp.s
 
 PHENOTYPE/numericPhenotype.o: PHENOTYPE/numericPhenotype.cpp.o
 
@@ -516,18 +462,12 @@ help:
 	@echo "... FLYWEIGHT/flyweightSudokuUnit.o"
 	@echo "... FLYWEIGHT/flyweightSudokuUnit.i"
 	@echo "... FLYWEIGHT/flyweightSudokuUnit.s"
-	@echo "... FLYWEIGHT/flyweightUnit.o"
-	@echo "... FLYWEIGHT/flyweightUnit.i"
-	@echo "... FLYWEIGHT/flyweightUnit.s"
 	@echo "... MENU/menu.o"
 	@echo "... MENU/menu.i"
 	@echo "... MENU/menu.s"
 	@echo "... PHENOTYPE/binaryPhenotype.o"
 	@echo "... PHENOTYPE/binaryPhenotype.i"
 	@echo "... PHENOTYPE/binaryPhenotype.s"
-	@echo "... PHENOTYPE/file.o"
-	@echo "... PHENOTYPE/file.i"
-	@echo "... PHENOTYPE/file.s"
 	@echo "... PHENOTYPE/numericPhenotype.o"
 	@echo "... PHENOTYPE/numericPhenotype.i"
 	@echo "... PHENOTYPE/numericPhenotype.s"

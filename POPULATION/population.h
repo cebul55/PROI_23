@@ -6,7 +6,7 @@
 #define PROI_23_POPULATION_H
 
 #include "../FLYWEIGHT/flyweightBagpackUnit.h"
-#include "../UNIT/sudokuUnit.h"
+#include "../FLYWEIGHT/flyweightSudokuUnit.h"
 
 #define BAGPACK 1
 #define SUDOKU 2
@@ -121,7 +121,7 @@ public:
     void writePopulation(){
         if(name_ == BAGPACK)
             std::cout<<"Type: Bagpack "<<std::endl;
-        else
+        else if( name_ == SUDOKU)
             std::cout<<"Sudoku "<<std::endl;
         std::cout<<"Number of Units : "<<numberOfUnits_<<std::endl;
         bestUnit_->write(sampleUnit_);

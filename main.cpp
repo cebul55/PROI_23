@@ -4,11 +4,11 @@
 #include "MENU/menu.h"
 
 int main() {
-    /*Menu myMenu;
+    Menu myMenu;
     int menu=1;
     while(menu==1){
         menu=myMenu.menu();
-    }*/
+    }
 
 
     /*containter.populationBagpackContainer_[0].writePopulation();
@@ -54,10 +54,6 @@ int main() {
         bagpacks.writeUnit(i);
     }*/
 
-    SudokuUnit s;
-    s.writeSudokuBoard();
-    std::cout<<"phenotype "<<std::endl;
-    s.writePhenotype();
 
 
     return 0;

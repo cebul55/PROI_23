@@ -5,7 +5,7 @@
 #ifndef PROI_23_FLYWEIGHTBAGPACKUNIT_H
 #define PROI_23_FLYWEIGHTBAGPACKUNIT_H
 
-#include "flyweightUnit.h"
+#include "../Unit/bagpackUnit.h"
 
 
 class FlyweightBagpackUnit {

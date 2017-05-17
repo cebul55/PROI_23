@@ -5,24 +5,33 @@
 
 int Menu::menu(){
     int choice;
-    system(CLEAR);
     std::cout<<"Welcome!\nWhich problem would you like to solve?"<<std::endl;
     std::cout<<"[1].Bagpack problem"<<std::endl;
     std::cout<<"[2].Sudoku problem"<<std::endl;
+    std::cout<<"[3].Add population"<<std::endl;
     std::cout<<"[0].Exit"<<std::endl;
     std::cin>>choice;
     switch(choice){
         case 1:{
+            for(int  i = 0 ; i < ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size() ; i++){
+                std::cout<<std::endl<<"POPULATION NO."<<i<<std::endl;
+                ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[i].writePopulation();
+            }
+            std::cout<<"Choose number of population"<<std::endl;
+            int number;
+            std::cin >> number;
+            assert(number<ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size());
             system(CLEAR);
-            std::cout<<"Bagpack problem menu:"<<std::endl;
-            std::cout<<"[1].Create new bagpack population"<<std::endl;
-            std::cout<<"[2].Magage existing population of bagpacks"<<std::endl;
-            std::cout<<"[0].Exit"<<std::endl;
+            std::cout<<"[1].Do 100 steps {kill , cross ...}"<<std::endl;
+            std::cout<<"[2].Kill random"<<std::endl;
+            std::cout<<"[3].Kill aproximetly half of population"<<std::endl;
+            std::cout<<"[4].Cross population"<<std::endl;
+            std::cout<<"[5].Write best unit"<<std::endl;
             int choice1;
             std::cin>>choice1;
-            switch (choice1){
-                case 1: {
-                    std::cout<<"tu cos bylo ale juz nie ma"<<std::endl;
+            switch(choice1){
+                case 5:{
+                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();
                     break;
                 }
                 default:
@@ -31,8 +40,12 @@ int Menu::menu(){
             break;
         }
         case 2:{
-            std::cout<<"Not working yet press any button";
+            std::cout<<"Not working yet press any button"<<std::endl;
             //container::getInstance*()
+            break;
+        }
+        case 3:{
+            ContainerOfPopulations::getInstanceContainer().addPopulation();
             break;
         }
         case 0:{
@@ -53,3 +66,4 @@ int Menu::menu(){
 
     return 1;
 }
+
