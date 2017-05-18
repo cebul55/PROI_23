@@ -29,7 +29,7 @@ public:
             return phenotype_;
     };
 
-    std::string crossPhenotypeLeftFirst(Phenotype* , Phenotype*);
+    //std::string crossPhenotypeLeftFirst(Phenotype* , Phenotype*);
     std::string crossPhenotypeRigthFirst(Phenotype* , Phenotype*);
 };
 

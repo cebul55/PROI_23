@@ -33,3 +33,17 @@ void BinaryPhenotype::mutatePhenotype() {
         binaryPhenotype_[n] = '0';
     return ;
 }
+
+std::string BinaryPhenotype::crossPhenotypeLeftFirst(BinaryPhenotype *leftParent, BinaryPhenotype *rightParent) {
+    assert(leftParent->giveSize()==rightParent->giveSize());
+    Random generateNumber(leftParent->giveSize() - 1);
+    generateNumber.setValue();
+    std::string newPhenotype;
+    std::string leftPhenotype = leftParent->givePhenotype();
+    std::string rightPhenotype = rightParent->givePhenotype();
+    //generateNumber.writeValue();
+    newPhenotype = leftPhenotype.substr(0,generateNumber.pushValue());
+    newPhenotype += rightPhenotype.substr(generateNumber.pushValue(),leftParent->giveSize());
+    assert(leftParent->giveSize()==newPhenotype.size());
+    return newPhenotype;
+}

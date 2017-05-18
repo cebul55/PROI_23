@@ -43,7 +43,9 @@ public:
     };
 
     void mutatePhenotype();
+    std::string crossPhenotypeLeftFirst(BinaryPhenotype* , BinaryPhenotype*);
 
- };
+
+};
 
 #endif //PROI_23_BINARYPHENOTYPE_H

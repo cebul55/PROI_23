@@ -10,14 +10,18 @@ int main() {
         menu=myMenu.menu();
     }
 
+/*
+    ContainerOfPopulations::getInstanceContainer().addPopulation();
+    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].writePopulation();
+    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].crossPopulation();
+    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].writePopulation();
+*/
 
-    /*containter.populationBagpackContainer_[0].writePopulation();
-    containter.populationBagpackContainer_[0].killPopulation();
-    containter.populationBagpackContainer_[0].writePopulation();
-    containter.populationBagpackContainer_[0].crossPopulation();
-    containter.populationBagpackContainer_[0].writePopulation();*/
-
-
+/*    BagpackUnit b , b1(b);
+    BagpackUnit nw(b , b1);
+    b.write();
+    b1.write();
+    nw.write();*/
     /*BagpackUnit b;
     b.write();
     int maks = 0;

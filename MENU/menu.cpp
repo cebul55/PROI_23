@@ -30,6 +30,34 @@ int Menu::menu(){
             int choice1;
             std::cin>>choice1;
             switch(choice1){
+                case 1:{
+                    for(int i = 0 ; i < 100 ; i++){
+                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killPopulation();
+                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].crossPopulation();
+                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();
+                    }
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 2:{
+                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killRandom();
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 3:{
+                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killPopulation();
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 4:{
+                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].crossPopulation();
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
                 case 5:{
                     ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();
                     break;

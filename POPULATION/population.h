@@ -93,8 +93,8 @@ public:
     void crossPopulation(){
         Random generateProcent(20);
         generateProcent.setValue();
-        unsigned long n = allUnits_.size() * (generateProcent.pushValue() +20 )/100;//crossing 20-40% of population
-        unsigned long i = 0;
+        unsigned long long n = allUnits_.size() * (generateProcent.pushValue() +20 )/100;//crossing 20-40% of population
+        unsigned long long i = 0;
         while(i<n){
             Random generateUnit(allUnits_.size() - 1);
             generateUnit.setValue();
