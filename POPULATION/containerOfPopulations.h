@@ -6,6 +6,7 @@
 #define PROI_23_CONTAINEROFPOPULATIONS_H
 
 #include "population.h"
+
 class ContainerOfPopulations{
 private:
     int bagpackCount_;

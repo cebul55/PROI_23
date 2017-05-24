@@ -75,40 +75,41 @@ void SudokuUnit::decodePhenotype() {
             k++ ; j++;
         }
     }
-    //TODO not working decoding phenotype and coding phenotype is not fully working
 }
 
-void SudokuUnit::setNote() {
+int SudokuUnit::setNote() {
+    int note = 0 , maxNumberOfRepetitions;
+    int row[300];
+    int column[300];
+    maxNumberOfRepetitions = 2*(maxSize_ - 1)*maxSize_;
     for(int i = 0 ; i < maxSize_ ; i++){
-        int row[300];
+        for( int j = 0 ; j <= maxSize_ ; j++)
+            row[j] = 0;
         for(int j = 0 ; j < maxSize_ ; j++){
             row[generatedSudokuBoard_[i][j]]++;
             if(row[generatedSudokuBoard_[i][j]] > 1){
-                note_++;
+                note++;
             }
         }
     }
     for(int i = 0 ; i < maxSize_ ; i++){
-        int coulumn[300];
+        for( int k = 0 ; k <= maxSize_ ; k++)
+            column[k] = 0;
         for(int j = 0 ; j < maxSize_ ; j++){
-            coulumn[generatedSudokuBoard_[j][i]]++;
-            if(coulumn[generatedSudokuBoard_[j][i]] > 1){
-                note_++;
+            column[generatedSudokuBoard_[j][i]]++;
+            if(column[generatedSudokuBoard_[j][i]] > 1){
+                note++;
             }
         }
     }
-
+    return maxNumberOfRepetitions - note;
 }
 
 void SudokuUnit::crossSudokuUnit(SudokuUnit &sudokuUnit1, SudokuUnit &sudokuUnit2 , int maxSize) {
     std::vector<std::string> left = sudokuUnit1.pushNumericPhenotype();
-    std::vector<std::string> right = sudokuUnit1.pushNumericPhenotype();
+    std::vector<std::string> right = sudokuUnit2.pushNumericPhenotype();
     NumericPhenotype numericPhenotype;
     phenotype_ = (numericPhenotype.crossPhenotype(left , right , maxSize));
-        //decodePhenotype();
-        //setNote();
-        //setNote();
-
 }
 int SudokuUnit::takeNumberFromPhenotype(std::string numberString) {
     int number = 0 , i = 0 , powerOfTen = 1;

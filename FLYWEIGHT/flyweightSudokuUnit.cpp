@@ -13,3 +13,11 @@ void FlyweightSudokuUnit::crossFlyweightSudokuUnit(FlyweightSudokuUnit &sudokuUn
         setNote();
     }
 }
+
+void FlyweightSudokuUnit::write(SudokuUnit sudoku) {
+    std::cout<<"Bagpack maximum size : "<< maxSize_<<std::endl;
+    writeGeneratedSudokuBoard();
+    std::cout<<std::endl<<"Note: "<<note_<<std::endl;
+    sudoku.writeSudokuBoard();
+    return;
+}

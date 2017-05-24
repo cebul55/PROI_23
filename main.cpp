@@ -11,11 +11,17 @@ int main() {
 //    }
 
 
+//    SudokuUnit *sudoku;
+//    FlyweightSudokuUnit *flyweight = new FlyweightSudokuUnit(*sudoku);
+//    flyweight->write(sudoku);
 
-    SudokuUnit sudoku1 ;
-//    SudokuUnit sudoku2 ;
-//    SudokuUnit sudoku(sudoku1 , sudoku2);
-    sudoku1.writeGeneratedSudokuBoard();
 
+//    SudokuUnit *sample = new SudokuUnit;
+//    Population<SudokuUnit , FlyweightSudokuUnit> sudokus(sample , 10 , 2);
+//    sudokus.writeBestUnit();
+
+    SudokuUnit *sudoku;
+    FlyweightSudokuUnit s(sudoku);
+    s.writeGeneratedSudokuBoard();
     return 0;
 }

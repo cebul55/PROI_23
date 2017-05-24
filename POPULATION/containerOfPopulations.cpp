@@ -50,5 +50,3 @@ void ContainerOfPopulations::makeSudokuPopulation(){
     populationSudokuContainer_.push_back(sudokus);
     return;
 }
-//TODO wzorce dekorator , most , fabryka ??? , nie behawioralne a obiektowe  , STRATEGIA , SINGLETON, FASADA
-//TODO wzorzec strategii może być uzyty do sprawdzania czy podana klasa trafia do contenera <bagpack> czy <sudoku>

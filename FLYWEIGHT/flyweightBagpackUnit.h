@@ -8,7 +8,7 @@
 #include "../Unit/bagpackUnit.h"
 
 
-class FlyweightBagpackUnit {
+class FlyweightBagpackUnit{
     int maxSize_;
     int numberOfItems_;
     int note_;
