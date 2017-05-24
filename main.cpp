@@ -4,61 +4,18 @@
 #include "MENU/menu.h"
 
 int main() {
-    Menu myMenu;
-    int menu=1;
-    while(menu==1){
-        menu=myMenu.menu();
-    }
-
-/*
-    ContainerOfPopulations::getInstanceContainer().addPopulation();
-    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].writePopulation();
-    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].crossPopulation();
-    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[0].writePopulation();
-*/
-
-/*    BagpackUnit b , b1(b);
-    BagpackUnit nw(b , b1);
-    b.write();
-    b1.write();
-    nw.write();*/
-    /*BagpackUnit b;
-    b.write();
-    int maks = 0;
-    for(int i = 0 ; i < 100 ; i++){
-        BagpackUnit copy(b);
-        if(copy.pushNote()>maks){
-            maks = copy.pushNote();
-            copy.writeSpecyficBagpack();
-        }
-    }*/
-
-/*    int maks = 0;
-    BagpackUnit b;
-    BagpackUnit copy1(b);
-    BagpackUnit copy2(b);*/
-
- /*   b.write();
-    for(int i = 0 ; i < 1000 ; i++) {
-        //copy1.write();
-        //copy2.write();
-        BagpackUnit child(copy1, copy2);
-        if(child.pushNote()>maks) {
-            maks = child.pushNote();
-            child.write();
-        }
-    }*/
-
-/*    BagpackUnit b;
-    BagpackUnit b1 = new BagpackUnit(&b);
-    b1.write();*/
-/*    BagpackUnit sample;
-    Population<BagpackUnit> bagpacks(&sample,100);*/
-    /*for(int i = 0 ; i<10 ; i++){
-        bagpacks.writeUnit(i);
-    }*/
+//    Menu myMenu;
+//    int menu=1;
+//    while(menu==1){
+//        menu=myMenu.menu();
+//    }
 
 
+
+    SudokuUnit sudoku1 ;
+//    SudokuUnit sudoku2 ;
+//    SudokuUnit sudoku(sudoku1 , sudoku2);
+    sudoku1.writeGeneratedSudokuBoard();
 
     return 0;
 }

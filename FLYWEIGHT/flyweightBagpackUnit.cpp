@@ -41,7 +41,7 @@ void FlyweightBagpackUnit::crossMutateFlyweightBagpack(FlyweightBagpackUnit &fly
         BinaryPhenotype mutate(stringBagpack_);
         mutate.mutatePhenotype();
         stringBagpack_= mutate.givePhenotype();
-        std::cout<<"MUTATED"<<std::endl;
+        //std::cout<<"MUTATED"<<std::endl;
     }
     return;
 }

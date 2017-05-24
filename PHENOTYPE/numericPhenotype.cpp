@@ -3,16 +3,17 @@
 //
 
 #include "numericPhenotype.h"
-
+// todo unit tests
+// todo auto tests
+// todo docs
+// todo vectors private
+// todo file i/o (singleton)
 void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBoard, int size) {
     Random generateNumber(size);
     int sizeOfSubgrid = sqrt(size);
     std::vector<std::vector<int> > lackingNumbers = generateHelpBoard(sudokuBoard , size);
     for(int i = 0 ; i < size ; i++){
         numericPhenotype_.push_back("");
-        if( i < sizeOfSubgrid){
-
-        }
     }
     int subgridIterator;
     for ( int i = 0 ; i < size ; i++){
@@ -87,17 +88,33 @@ std::string NumericPhenotype::insertNumberInPhenotype(int n) {
     return character;
 }
 
-std::vector<std::string> NumericPhenotype::crossPhenotype(std::vector<std::string> left, std::vector<std::string> right) {
+std::vector<std::string> NumericPhenotype::crossPhenotype(std::vector<std::string> left, std::vector<std::string> right , int maxSize) {
     std::vector<std::string> phenotype;
-    Random generateNumber(left[0].size());
-    for(int i = 0 ; i < left[i].size(); i++ ){
+    std::string row;
+    Random generateNumber(maxSize);
+    for(int i = 0 ; i < maxSize; i++ ){
+        row = "";
         generateNumber.setValue();
-        for( int j = 0 ; j < generateNumber.pushValue() ; j++){
-            phenotype[i].push_back(left[i][j]);
+//        for( int j = 0 ; j < generateNumber.pushValue() ; j++){
+//            row += (left[i][j]);
+//        }
+//        for( int k = generateNumber.pushValue() ; k < left.size() ; k++){
+//            row += (right[i][k]);
+//        }
+        int j = 0 , k = generateNumber.pushValue() , l = 0;
+        while(j < generateNumber.pushValue()){
+            if(left[i][l] == '|')
+                j++;
+            row += (left[i][l]);
+            l++;
         }
-        for( int k = generateNumber.pushValue() ; k < left.size() ; k++){
-            phenotype[i].push_back(right[i][k]);
+        while(k < left.size()){
+            if(right[i][l] == '|')
+                k++;
+            row += right[i][l];
+            l++;
         }
+        phenotype.push_back(row);
     }
     return  phenotype;
 }

@@ -12,9 +12,10 @@ class SudokuUnit: public Unit{
     int note_;
     std::vector<std::string> phenotype_;
     std::vector < std::vector <int> > sudokuBoard_;
-    std::vector <std::string> generatedSudokuBoard_;
+    std::vector <std::vector<int> > generatedSudokuBoard_;
     int setMaxSize();
     void setSudokuBoard(int);
+    int takeNumberFromPhenotype(std::string);
 
 public:
     SudokuUnit(){
@@ -23,14 +24,14 @@ public:
             NumericPhenotype phenotype(sudokuBoard_, maxSize_);
             phenotype_ = phenotype.giveNumericPhenotype();
             decodePhenotype();
-            setNote();
+            //setNote();
     }
 
     SudokuUnit(std::vector<std::string> phenotype):
     phenotype_(phenotype),
     maxSize_(phenotype[0].size()){
-        decodePhenotype();
-        setNote();
+        //decodePhenotype();
+       // setNote();
     }
     SudokuUnit(SudokuUnit const &sudoku){
         maxSize_ = sudoku.maxSize_;
@@ -41,10 +42,11 @@ public:
     }
     SudokuUnit(SudokuUnit left , SudokuUnit right ){
         maxSize_ = left.pushMaxSize();
-        crossSudokuUnit(left , right);
+        crossSudokuUnit(left , right , left.maxSize_);
+        //decode set note
     }
 
-    std::vector <std::string> pushGeneratedSudoku(){
+    std::vector <std::vector<int> > pushGeneratedSudoku(){
         return generatedSudokuBoard_;
     }
     void setNote();
@@ -62,7 +64,11 @@ public:
         return phenotype_;
     }
     void writeSudokuBoard();
-    void crossSudokuUnit( SudokuUnit &sudokuUnit1 , SudokuUnit &sudokuUnit2);
+    void writeGeneratedSudokuBoard();
+    void crossSudokuUnit( SudokuUnit &sudokuUnit1 , SudokuUnit &sudokuUnit2 , int);
+    virtual int pushMaxSize(){
+        return maxSize_;
+    }
 };
 
 #endif //PROI_23_SUDOKUUNIT_H

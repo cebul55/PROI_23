@@ -86,7 +86,7 @@ void BagpackUnit::crossMutateBagpack(BagpackUnit &bagpack1 , BagpackUnit &bagpac
         BinaryPhenotype mutate(phenotype_);
         mutate.mutatePhenotype();
         phenotype_= mutate.givePhenotype();
-        std::cout<<"MUTATED"<<std::endl;
+        //std::cout<<"MUTATED"<<std::endl;
     }
      return;
 }

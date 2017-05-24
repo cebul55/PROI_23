@@ -80,7 +80,7 @@ public:
     void killPopulation(){
         Random generateProcent(20);
         generateProcent.setValue();
-        unsigned long n = allUnits_.size() *(generateProcent.pushValue() + 31)/100;//killing 30-50% of population
+        unsigned long n = allUnits_.size() *(generateProcent.pushValue() + 26)/100;//killing 26-46% of population
         unsigned long i = 0 ;
         while (i < n){
             Random generateUnit(allUnits_.size() - 1 );
@@ -93,7 +93,7 @@ public:
     void crossPopulation(){
         Random generateProcent(20);
         generateProcent.setValue();
-        unsigned long long n = allUnits_.size() * (generateProcent.pushValue() +20 )/100;//crossing 20-40% of population
+        unsigned long long n = allUnits_.size() * (generateProcent.pushValue() +31 )/100;//crossing 20-40% of population
         unsigned long long i = 0;
         while(i<n){
             Random generateUnit(allUnits_.size() - 1);

@@ -8,7 +8,7 @@ void FlyweightSudokuUnit::crossFlyweightSudokuUnit(FlyweightSudokuUnit &sudokuUn
     std::vector<std::string> right = sudokuUnit1.pushNumericPhenotype();
     NumericPhenotype numericPhenotype;
     for( int  i = 0 ; i < sudokuUnit1.maxSize_ ; i++){
-        phenotype_ = (numericPhenotype.crossPhenotype(left , right));
+        phenotype_ = (numericPhenotype.crossPhenotype(left , right , sudokuUnit1.maxSize_));
         decodePhenotype();
         setNote();
     }

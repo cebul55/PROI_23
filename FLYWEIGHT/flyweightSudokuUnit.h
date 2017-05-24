@@ -11,7 +11,7 @@ class FlyweightSudokuUnit:public SudokuUnit{
     int maxSize_;
     int note_;
     std::vector<std::string> phenotype_;
-    std::vector <std::string> generatedSudokuBoard_;
+    std::vector <std::vector<int> > generatedSudokuBoard_;
 public:
 
     FlyweightSudokuUnit(SudokuUnit *sudokuUnit):

@@ -45,18 +45,35 @@ void SudokuUnit::writeSudokuBoard(){
     }
 }
 
+void SudokuUnit::writeGeneratedSudokuBoard(){
+    for(int i = 0 ; i < maxSize_ ; i++){
+        for(int j = 0 ; j < maxSize_ ; j++){
+            std::cout<<generatedSudokuBoard_[i][j]<<" ";
+        }
+        std::cout<<std::endl;
+    }
+}
+
 void SudokuUnit::decodePhenotype() {
     int sizeOfSubgrid = sqrt(maxSize_);
-    int subgridIterator;
+    int lineIterator;
+    std::vector<int> row;
     for(int i = 0 ; i < maxSize_ ; i++){
-        generatedSudokuBoard_.push_back("");
+        generatedSudokuBoard_.push_back(row);
     }
-    for ( int i = 0 ; i < maxSize_ ; i++){
-        std::string row;
-        for( int j = 0 ; j < 2*sizeOfSubgrid ; j++){
-            row.push_back(phenotype_[i][j]);
+    for(int i = 0 ; i < maxSize_ ; i++){
+        int j = 0 , k = 0 , number;
+        while ( j < maxSize_){
+            lineIterator = j/sizeOfSubgrid +sizeOfSubgrid*(i/sizeOfSubgrid);
+            std::string numberString;
+            while(phenotype_[i][k] != '|'){
+                numberString += phenotype_[i][k];
+                k++;
+            }
+            number = takeNumberFromPhenotype(numberString);
+            generatedSudokuBoard_[lineIterator].push_back(number);
+            k++ ; j++;
         }
-        generatedSudokuBoard_[i] += row;
     }
     //TODO not working decoding phenotype and coding phenotype is not fully working
 }
@@ -83,13 +100,23 @@ void SudokuUnit::setNote() {
 
 }
 
-void SudokuUnit::crossSudokuUnit(SudokuUnit &sudokuUnit1, SudokuUnit &sudokuUnit2) {
+void SudokuUnit::crossSudokuUnit(SudokuUnit &sudokuUnit1, SudokuUnit &sudokuUnit2 , int maxSize) {
     std::vector<std::string> left = sudokuUnit1.pushNumericPhenotype();
     std::vector<std::string> right = sudokuUnit1.pushNumericPhenotype();
     NumericPhenotype numericPhenotype;
-    for( int  i = 0 ; i < sudokuUnit1.maxSize_ ; i++){
-        phenotype_ = (numericPhenotype.crossPhenotype(left , right));
-        decodePhenotype();
-        setNote();
+    phenotype_ = (numericPhenotype.crossPhenotype(left , right , maxSize));
+        //decodePhenotype();
+        //setNote();
+        //setNote();
+
+}
+int SudokuUnit::takeNumberFromPhenotype(std::string numberString) {
+    int number = 0 , i = 0 , powerOfTen = 1;
+    while( i < numberString.size()){
+        int add = numberString[i] - 48;
+        number = number + powerOfTen*add;
+        i++;
+        powerOfTen *= 10;
     }
+    return number;
 }

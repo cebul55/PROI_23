@@ -15,14 +15,14 @@ int Menu::menu(){
         case 1:{
             for(int  i = 0 ; i < ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size() ; i++){
                 std::cout<<std::endl<<"POPULATION NO."<<i<<std::endl;
-                ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[i].writePopulation();
+                ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[i].writePopulation() ;
             }
             std::cout<<"Choose number of population"<<std::endl;
             int number;
             std::cin >> number;
             assert(number<ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size());
             system(CLEAR);
-            std::cout<<"[1].Do 100 steps {kill , cross ...}"<<std::endl;
+            std::cout<<"[1].Do 20 steps {kill , cross ...}"<<std::endl;
             std::cout<<"[2].Kill random"<<std::endl;
             std::cout<<"[3].Kill aproximetly half of population"<<std::endl;
             std::cout<<"[4].Cross population"<<std::endl;
@@ -31,7 +31,7 @@ int Menu::menu(){
             std::cin>>choice1;
             switch(choice1){
                 case 1:{
-                    for(int i = 0 ; i < 100 ; i++){
+                    for(int i = 0 ; i < 20 ; i++){
                         ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killPopulation();
                         ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].crossPopulation();
                         ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();

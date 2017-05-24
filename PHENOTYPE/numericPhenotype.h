@@ -19,6 +19,10 @@ public:
             maxSize_(maxSize){
         generatePhenotype(sudokuBoard , maxSize);
     }
+    NumericPhenotype(std::vector<std::string> left , std::vector<std::string> right , int maxSize){
+        maxSize_ = maxSize;
+        numericPhenotype_ = crossPhenotype(left , right , maxSize_);
+    }
     void write(){
         for( int i = 0 ; i < maxSize_; i++){
             for ( int j = 0 ; j < numericPhenotype_[i].size() ; j++){
@@ -30,7 +34,7 @@ public:
     std::vector<std::string> giveNumericPhenotype(){
         return numericPhenotype_;
     }
-    std::vector<std::string> crossPhenotype(std::vector<std::string> , std::vector<std::string>);
+    std::vector<std::string> crossPhenotype(std::vector<std::string> , std::vector<std::string> , int);
 };
 
 #endif //PROI_23_NUMERICPHENOTYPE_H
