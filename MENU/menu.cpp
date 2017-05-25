@@ -178,7 +178,7 @@ void Menu::fileTest() {
                 ContainerOfPopulations::getInstanceContainer().killSudokuContainer(number);
                 ContainerOfPopulations::getInstanceContainer().crossSudokuContainer(number);
                 ContainerOfPopulations::getInstanceContainer().writeBestSudokuUnitContainer(number);
-                File::getInstanceFile().writeSudokuPopulation(number);
+                //File::getInstanceFile().writeSudokuPopulation(number);
             }
             File::getInstanceFile().closeSudokuFile();
             break;

@@ -12,8 +12,11 @@ void FlyweightSudokuUnit::crossFlyweightSudokuUnit(FlyweightSudokuUnit &sudokuUn
 
 void FlyweightSudokuUnit::write(SudokuUnit &sudoku) {
     if(File::getInstanceFile().isOpenSudoku() == 1 ){
+        std::cout<<"SSS";
+        std::cout<<"Sudoku maximum size : "<< maxSize_<<std::endl;
         File::getInstanceFile().sudoku_<<"Sudoku maximum size : "<< maxSize_<<std::endl;
         writeGeneratedSudokuBoard();
+        std::cout<<std::endl<<"Note: "<<note_<<std::endl;
         File::getInstanceFile().sudoku_<<"Note: "<<note_<<std::endl;
     }
     else{

@@ -26,9 +26,9 @@ public:
         return file;
     }
     void openSudokuFile() {
-        sudoku_.open("sudoku.txt");
+        //sudoku_.open("sudoku.txt");
+        sudoku_.open("sudoku.txt" , std::fstream::in | std::fstream::out );
         assert(sudoku_.is_open()!= 0);
-        //sudoku_.open("sudoku.txt" , std::fstream::in | std::fstream::out );
     }
     void openBagpackFile(){
         bagpack_.open("bagpack.txt" , std::fstream::in | std::fstream::out );

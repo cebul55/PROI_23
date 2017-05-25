@@ -3,11 +3,6 @@
 //
 
 #include "numericPhenotype.h"
-// todo unit tests
-// todo auto tests
-// todo docs
-// todo vectors private
-// todo file i/o (singleton)
 void NumericPhenotype::generatePhenotype(std::vector<std::vector<int> > sudokuBoard, int size) {
     Random generateNumber(size);
     int sizeOfSubgrid = sqrt(size);

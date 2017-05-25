@@ -9,8 +9,7 @@ int main() {
     while(menu==1){
         menu=myMenu.menu();
     }
-
-//todo FINAL : dokumentacja , obsługa pilików , 2 - 4 testy w plikach żeby ręcznie nie pisać
+    //myMenu.fileTest();
 
 //    SudokuUnit *sudoku;
 //    FlyweightSudokuUnit *flyweight = new FlyweightSudokuUnit(*sudoku);
