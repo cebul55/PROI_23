@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FILE/file.cpp
+file.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FILE/file.h
+
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FILE/file.h
+fstream
+-
+vector
+-
+
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.cpp
 flyweightBagpackUnit.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FLYWEIGHT/flyweightBagpackUnit.h
@@ -33,6 +43,8 @@ cstdlib
 -
 ../POPULATION/containerOfPopulations.h
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/POPULATION/containerOfPopulations.h
+../FILE/file.h
+/Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/FILE/file.h
 
 /Users/bartoszcybulski/Desktop/Informatyka WEITI Materiały /Semestr_II/Programowanie obiektowe/PROI_23/PHENOTYPE/binaryPhenotype.cpp
 binaryPhenotype.h

@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightBagpackUnit.cpp.o"
   "CMakeFiles/PROI_23.dir/FLYWEIGHT/flyweightSudokuUnit.cpp.o"
   "CMakeFiles/PROI_23.dir/UNIT/unit.cpp.o"
+  "CMakeFiles/PROI_23.dir/FILE/file.cpp.o"
   "PROI_23.pdb"
   "PROI_23"
 )

@@ -9,10 +9,13 @@
 #include <cstdlib>
 
 #include "../POPULATION/containerOfPopulations.h"
+#include "../FILE/file.h"
 
 class Menu{
+    //void fileTest();
 public:
     int menu();
+    void fileTest();
 };
 
 #endif //PROI_23_MENU_H

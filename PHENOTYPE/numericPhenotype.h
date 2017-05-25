@@ -34,6 +34,9 @@ public:
     std::vector<std::string> giveNumericPhenotype(){
         return numericPhenotype_;
     }
+    std::string giveRowOfNumericPhenotype(int n){
+        return numericPhenotype_[n];
+    }
     std::vector<std::string> crossPhenotype(std::vector<std::string> , std::vector<std::string> , int);
 };
 

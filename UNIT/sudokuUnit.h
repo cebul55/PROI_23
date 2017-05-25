@@ -26,7 +26,14 @@ public:
             decodePhenotype();
             note_ = setNote();
     }
-
+    SudokuUnit(std::vector<std::vector<int> > board , int maxSize ):
+    maxSize_(maxSize),
+    sudokuBoard_(board){
+        NumericPhenotype phenotype(sudokuBoard_ , maxSize_);
+        phenotype_ = phenotype.giveNumericPhenotype();
+        decodePhenotype();
+        note_ = setNote();
+    }
     SudokuUnit(std::vector<std::string> phenotype):
     phenotype_(phenotype),
     maxSize_(phenotype[0].size()){

@@ -123,6 +123,33 @@ PROI_23/fast:
 	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/build
 .PHONY : PROI_23/fast
 
+FILE/file.o: FILE/file.cpp.o
+
+.PHONY : FILE/file.o
+
+# target to build an object file
+FILE/file.cpp.o:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FILE/file.cpp.o
+.PHONY : FILE/file.cpp.o
+
+FILE/file.i: FILE/file.cpp.i
+
+.PHONY : FILE/file.i
+
+# target to preprocess a source file
+FILE/file.cpp.i:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FILE/file.cpp.i
+.PHONY : FILE/file.cpp.i
+
+FILE/file.s: FILE/file.cpp.s
+
+.PHONY : FILE/file.s
+
+# target to generate assembly for a file
+FILE/file.cpp.s:
+	$(MAKE) -f CMakeFiles/PROI_23.dir/build.make CMakeFiles/PROI_23.dir/FILE/file.cpp.s
+.PHONY : FILE/file.cpp.s
+
 FLYWEIGHT/flyweightBagpackUnit.o: FLYWEIGHT/flyweightBagpackUnit.cpp.o
 
 .PHONY : FLYWEIGHT/flyweightBagpackUnit.o
@@ -456,6 +483,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PROI_23"
+	@echo "... FILE/file.o"
+	@echo "... FILE/file.i"
+	@echo "... FILE/file.s"
 	@echo "... FLYWEIGHT/flyweightBagpackUnit.o"
 	@echo "... FLYWEIGHT/flyweightBagpackUnit.i"
 	@echo "... FLYWEIGHT/flyweightBagpackUnit.s"

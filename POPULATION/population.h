@@ -40,7 +40,7 @@ public:
         }
     }
     void addNewUnit(T *unit){
-        FlyweightT *newUnit = new FlyweightT(unit);
+        FlyweightT *newUnit = new FlyweightT(*unit);
         assert(newUnit != NULL);
         this->checkIfBest(newUnit);
         allUnits_.push_back(newUnit);
@@ -93,7 +93,7 @@ public:
     void crossPopulation(){
         Random generateProcent(20);
         generateProcent.setValue();
-        unsigned long long n = allUnits_.size() * (generateProcent.pushValue() +31 )/100;//crossing 20-40% of population
+        unsigned long long n = allUnits_.size() * (generateProcent.pushValue() +26 )/100;//crossing 20-40% of population
         unsigned long long i = 0;
         while(i<n){
             Random generateUnit(allUnits_.size() - 1);
@@ -107,8 +107,8 @@ public:
                 right = generateUnit.pushValue();
                 check++;
             }
-            FlyweightBagpackUnit *son = new FlyweightBagpackUnit(*allUnits_[left],*allUnits_[right],sampleUnit_);
-            FlyweightBagpackUnit *daughter = new FlyweightBagpackUnit(*allUnits_[right],*allUnits_[left],sampleUnit_);
+            FlyweightT *son = new FlyweightT(*allUnits_[left],*allUnits_[right],sampleUnit_);
+            FlyweightT *daughter = new FlyweightT(*allUnits_[right],*allUnits_[left],sampleUnit_);
             allUnits_.push_back(son);
             allUnits_.push_back(daughter);
             this->checkIfBest(son);
@@ -124,15 +124,15 @@ public:
         else if( name_ == SUDOKU)
             std::cout<<"Sudoku "<<std::endl;
         std::cout<<"Number of Units : "<<numberOfUnits_<<std::endl;
-        bestUnit_->write(sampleUnit_);
+        bestUnit_->write(*sampleUnit_);
     }
     void writeUnit(int i){
-        allUnits_[i]->write(sampleUnit_);
+        allUnits_[i]->write(*sampleUnit_);
         return;
     }
     void writeBestUnit(){
         std::cout<<"BEST UNIT"<<std::endl;
-            bestUnit_->write(sampleUnit_);
+            bestUnit_->write(*sampleUnit_);
     };
 
     int giveNumberOfUnits(){

@@ -112,11 +112,11 @@ void SudokuUnit::crossSudokuUnit(SudokuUnit &sudokuUnit1, SudokuUnit &sudokuUnit
     phenotype_ = (numericPhenotype.crossPhenotype(left , right , maxSize));
 }
 int SudokuUnit::takeNumberFromPhenotype(std::string numberString) {
-    int number = 0 , i = 0 , powerOfTen = 1;
-    while( i < numberString.size()){
+    int number = 0 , i = numberString.size()-1 , powerOfTen = 1;
+    while( i >= 0){
         int add = numberString[i] - 48;
         number = number + powerOfTen*add;
-        i++;
+        i--;
         powerOfTen *= 10;
     }
     return number;

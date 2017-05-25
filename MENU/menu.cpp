@@ -13,14 +13,14 @@ int Menu::menu(){
     std::cin>>choice;
     switch(choice){
         case 1:{
-            for(int  i = 0 ; i < ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size() ; i++){
+            for(int  i = 0 ; i < ContainerOfPopulations::getInstanceContainer().pushBagpackCount() ; i++){
                 std::cout<<std::endl<<"POPULATION NO."<<i<<std::endl;
-                ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[i].writePopulation() ;
+                ContainerOfPopulations::getInstanceContainer().writeBagpackPopulationContainer(i) ;
             }
             std::cout<<"Choose number of population"<<std::endl;
             int number;
             std::cin >> number;
-            assert(number<ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_.size());
+            assert(number<ContainerOfPopulations::getInstanceContainer().pushBagpackCount());
             system(CLEAR);
             std::cout<<"[1].Do 20 steps {kill , cross ...}"<<std::endl;
             std::cout<<"[2].Kill random"<<std::endl;
@@ -32,34 +32,34 @@ int Menu::menu(){
             switch(choice1){
                 case 1:{
                     for(int i = 0 ; i < 20 ; i++){
-                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killPopulation();
-                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].crossPopulation();
-                        ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();
+                        ContainerOfPopulations::getInstanceContainer().killBagpackContainer(number);
+                        ContainerOfPopulations::getInstanceContainer().crossBagpackContainer(number);
+                        ContainerOfPopulations::getInstanceContainer().writeBestBagpackUnitContainer(number);
                     }
-                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberBagpackUnitsContainer(number);
                     std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
                     break;
                 }
                 case 2:{
-                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killRandom();
-                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    ContainerOfPopulations::getInstanceContainer().killRandomBagpackContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberBagpackUnitsContainer(number);
                     std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
                     break;
                 }
                 case 3:{
-                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].killPopulation();
-                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    ContainerOfPopulations::getInstanceContainer().killBagpackContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberBagpackUnitsContainer(number);
                     std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
                     break;
                 }
                 case 4:{
-                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].crossPopulation();
-                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].giveNumberOfUnits();
+                    ContainerOfPopulations::getInstanceContainer().crossBagpackContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberBagpackUnitsContainer(number);
                     std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
                     break;
                 }
                 case 5:{
-                    ContainerOfPopulations::getInstanceContainer().populationBagpackContainer_[number].writeBestUnit();
+                    ContainerOfPopulations::getInstanceContainer().writeBestBagpackUnitContainer(number);
                     break;
                 }
                 default:
@@ -68,8 +68,59 @@ int Menu::menu(){
             break;
         }
         case 2:{
-            std::cout<<"Not working yet press any button"<<std::endl;
-            //container::getInstance*()
+            for(int i = 0 ; i < ContainerOfPopulations::getInstanceContainer().pushSudokuCount() ; i++){
+                std::cout<<std::endl<<"POPULATION NO. "<< i << std::endl;
+                ContainerOfPopulations::getInstanceContainer().writeSudokuPopulationContainer(i);
+            }
+            std::cout<<"Choose number of population"<<std::endl;
+            int number;
+            std::cin>>number;
+            assert(number<ContainerOfPopulations::getInstanceContainer().pushSudokuCount());
+            system(CLEAR);
+            std::cout<<"[1].Do 20 steps {kill , cross ...}"<<std::endl;
+            std::cout<<"[2].Kill random"<<std::endl;
+            std::cout<<"[3].Kill aproximetly half of population"<<std::endl;
+            std::cout<<"[4].Cross population"<<std::endl;
+            std::cout<<"[5].Write best unit"<<std::endl;
+            int choice2;
+            std::cin>>choice2;
+            switch(choice2){
+                case 1:{
+                    for(int i = 0 ; i < 20 ; i++){
+                        ContainerOfPopulations::getInstanceContainer().killSudokuContainer(number);
+                        ContainerOfPopulations::getInstanceContainer().crossSudokuContainer(number);
+                        ContainerOfPopulations::getInstanceContainer().writeBestSudokuUnitContainer(number);
+                    }
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberSudokuUnitsContainer(number);
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 2:{
+                    ContainerOfPopulations::getInstanceContainer().killRandomSudokuContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberSudokuUnitsContainer(number);
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 3:{
+                    ContainerOfPopulations::getInstanceContainer().killSudokuContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberSudokuUnitsContainer(number);
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 4:{
+                    ContainerOfPopulations::getInstanceContainer().crossSudokuContainer(number);
+                    int numberOfUnits = ContainerOfPopulations::getInstanceContainer().pushNumberSudokuUnitsContainer(number);
+                    std::cout<<"Success ! New number of units:"<<numberOfUnits<<std::endl;
+                    break;
+                }
+                case 5 :{
+                    ContainerOfPopulations::getInstanceContainer().writeBestSudokuUnitContainer(number);
+                    break;
+                }
+                default:
+                    break;
+            }
+
             break;
         }
         case 3:{
@@ -93,5 +144,31 @@ int Menu::menu(){
     }
 
     return 1;
+}
+
+void Menu::fileTest() {
+    std::cout<<"Which example do you want to solve?"<<std::endl;
+    std::cout<<"[1].Bagpack"<<std::endl;
+    std::cout<<"[2].Sudoku"<<std::endl;
+    std::cout<<"[0].Exit"<<std::endl;
+    int choice ;
+    std::cin >> choice;
+    switch (choice){
+        case 1:{
+            //File::getInstanceFile().openBagpackFile();
+           break;
+        }
+        case 2:{
+            File::getInstanceFile().openSudokuFile();
+            int maxSize = File::getInstanceFile().readBoardSize();
+            std::vector< std::vector <int> > board ;
+            board = File::getInstanceFile().readSudokuBoard(maxSize);
+            SudokuUnit *sample = new SudokuUnit(board , maxSize);
+            sample->writeGeneratedSudokuBoard();
+            break;
+        }
+        default:
+            break;
+    }
 }
 

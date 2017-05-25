@@ -17,7 +17,7 @@ void ContainerOfPopulations::addPopulation() {
             this->makeBagpackPopulation();
             break;
         case 2:
-            std::cout<<"added but not connected function"<<std::endl;
+            this->makeSudokuPopulation();
             break;
         default:
             break;
