@@ -20,7 +20,7 @@
 #define MAX_RAND 2
 #define INITIAL_VALUE 0
 
-
+#include "../FILE/file.h"
 
 class Random{
     int value_;

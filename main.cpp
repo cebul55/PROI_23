@@ -5,11 +5,11 @@
 
 int main() {
     Menu myMenu;
-//    int menu=1;
-//    while(menu==1){
-//        menu=myMenu.menu();
-//    }
-    myMenu.fileTest();
+    int menu=1;
+    while(menu==1){
+        menu=myMenu.menu();
+    }
+
 //todo FINAL : dokumentacja , obsługa pilików , 2 - 4 testy w plikach żeby ręcznie nie pisać
 
 //    SudokuUnit *sudoku;

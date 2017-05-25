@@ -23,3 +23,15 @@ std::vector<std::vector<int> > File::readSudokuBoard(int size) {
     }
     return board ;
 }
+
+int File::readSizeOfSudokuPopulation() {
+    int sizeOfPoulation;
+    sudoku_ >> sizeOfPoulation;
+    return sizeOfPoulation;
+}
+
+void File::writeSudokuPopulation(int number) {
+    sudoku_<<"Number of Population: "<<number<<std::endl;
+    //int sudokuCount = ContainerOfPopulations::getInstanceContainer().pushNumberSudokuUnitsContainer(number);
+
+}

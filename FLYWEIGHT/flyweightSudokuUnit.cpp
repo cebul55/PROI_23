@@ -11,10 +11,17 @@ void FlyweightSudokuUnit::crossFlyweightSudokuUnit(FlyweightSudokuUnit &sudokuUn
 }
 
 void FlyweightSudokuUnit::write(SudokuUnit &sudoku) {
-    std::cout<<"Bagpack maximum size : "<< maxSize_<<std::endl;
-    writeGeneratedSudokuBoard();
-    std::cout<<std::endl<<"Note: "<<note_<<std::endl;
-    sudoku.writeSudokuBoard();
+    if(File::getInstanceFile().isOpenSudoku() == 1 ){
+        File::getInstanceFile().sudoku_<<"Sudoku maximum size : "<< maxSize_<<std::endl;
+        writeGeneratedSudokuBoard();
+        File::getInstanceFile().sudoku_<<"Note: "<<note_<<std::endl;
+    }
+    else{
+        std::cout<<"Sudoku maximum size : "<< maxSize_<<std::endl;
+        writeGeneratedSudokuBoard();
+        std::cout<<std::endl<<"Note: "<<note_<<std::endl;
+        sudoku.writeSudokuBoard();
+    }
     return;
 }
 
@@ -70,6 +77,14 @@ int FlyweightSudokuUnit::setNote() {
 }
 
 void FlyweightSudokuUnit::writeGeneratedSudokuBoard() {
+    if(File::getInstanceFile().isOpenSudoku() == 1){
+        for(int i = 0 ; i < maxSize_ ; i++){
+            for(int j = 0 ; j < maxSize_ ; j++){
+                File::getInstanceFile().sudoku_<<generatedSudokuBoard_[i][j]<<" ";
+            }
+            File::getInstanceFile().sudoku_<<std::endl;
+        }
+    }
     for(int i = 0 ; i < maxSize_ ; i++){
         for(int j = 0 ; j < maxSize_ ; j++){
             std::cout<<generatedSudokuBoard_[i][j]<<" ";

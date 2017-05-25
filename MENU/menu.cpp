@@ -9,6 +9,7 @@ int Menu::menu(){
     std::cout<<"[1].Bagpack problem"<<std::endl;
     std::cout<<"[2].Sudoku problem"<<std::endl;
     std::cout<<"[3].Add population"<<std::endl;
+    std::cout<<"[4].Read from file"<<std::endl;
     std::cout<<"[0].Exit"<<std::endl;
     std::cin>>choice;
     switch(choice){
@@ -127,6 +128,10 @@ int Menu::menu(){
             ContainerOfPopulations::getInstanceContainer().addPopulation();
             break;
         }
+        case 4:{
+            fileTest();
+            break;
+        }
         case 0:{
             system(CLEAR);
             std::cout<<"Do you want to leave?\npress [y] - yes\npress [n] - no"<<std::endl;
@@ -160,11 +165,22 @@ void Menu::fileTest() {
         }
         case 2:{
             File::getInstanceFile().openSudokuFile();
+            int sizeOfPupolation = File::getInstanceFile().readSizeOfSudokuPopulation();
             int maxSize = File::getInstanceFile().readBoardSize();
             std::vector< std::vector <int> > board ;
             board = File::getInstanceFile().readSudokuBoard(maxSize);
             SudokuUnit *sample = new SudokuUnit(board , maxSize);
-            sample->writeGeneratedSudokuBoard();
+            Population<SudokuUnit , FlyweightSudokuUnit> sudokus(sample , sizeOfPupolation , SUDOKU);
+            ContainerOfPopulations::getInstanceContainer().incrementSudokuCount();
+            ContainerOfPopulations::getInstanceContainer().addSudokuPopulation(sudokus);
+            int number = ContainerOfPopulations::getInstanceContainer().pushSudokuCount() - 1;
+            for(int i = 0 ; i < 50 ; i++){
+                ContainerOfPopulations::getInstanceContainer().killSudokuContainer(number);
+                ContainerOfPopulations::getInstanceContainer().crossSudokuContainer(number);
+                ContainerOfPopulations::getInstanceContainer().writeBestSudokuUnitContainer(number);
+                File::getInstanceFile().writeSudokuPopulation(number);
+            }
+            File::getInstanceFile().closeSudokuFile();
             break;
         }
         default:

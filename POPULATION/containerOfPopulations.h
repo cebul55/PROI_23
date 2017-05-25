@@ -81,6 +81,12 @@ public:
     long pushSizeSudokuPopulationContainer(){
         return populationSudokuContainer_.size();
     }
+    void incrementSudokuCount(){
+        sudokuCount_++;
+    }
+    void addSudokuPopulation(Population<SudokuUnit, FlyweightSudokuUnit> population){
+        populationSudokuContainer_.push_back(population);
+    }
 };
 
 #endif //PROI_23_CONTAINEROFPOPULATIONS_H
